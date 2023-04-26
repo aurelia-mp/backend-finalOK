@@ -1,0 +1,25 @@
+{{>header}}
+
+<div class="container mt-3">
+  <h1 class="alert alert-success">
+      Información del proceso
+      
+  </h1>
+</div>
+
+<div>
+        <ul>
+            <li>Argumentos de entrada: {{datos.argumentos}} </li>
+            <li>Sistema Operativo: {{datos.plataforma}}</li>
+            <li>Version de Node.js: {{ datos.version}}</li>
+            <li>Memoria total reservada: {{datos.rss}}</li>
+            <li>Path de ejecución:  {{datos.path}} </li>
+            <li>ID del proceso:  {{datos.pid}} </li>
+            <li>Carpeta del proyecto:  {{datos.carpeta}} </li>
+            <li>Cantidad de cores: {{datos.procesadores}} </li>
+        </ul>
+       
+    </table>
+</div>
+
+{{>footer}}

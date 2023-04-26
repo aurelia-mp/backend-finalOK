@@ -1,0 +1,1117 @@
+[2023-03-14T14:13:12.999] [ERROR] error - Error: Error subiendo el archivo
+    at crearProducto (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/controllers/controllersProductos.js:61:23)
+    at Layer.handle [as handle_request] (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:513:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2023-03-20T14:52:07.230] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'render')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:11:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-20T15:30:16.856] [ERROR] error - TypeError: Assignment to constant variable.
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:13:38
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-22T12:01:40.103] [ERROR] error - Client must be connected before running operations
+[2023-03-22T12:01:40.105] [ERROR] error - Client must be connected before running operations
+[2023-03-22T12:02:57.198] [ERROR] error - Client must be connected before running operations
+[2023-03-22T12:02:57.200] [ERROR] error - Client must be connected before running operations
+[2023-03-22T12:03:07.291] [ERROR] error - Client must be connected before running operations
+[2023-03-22T12:03:07.294] [ERROR] error - Client must be connected before running operations
+[2023-03-22T12:04:02.985] [ERROR] error - Client must be connected before running operations
+[2023-03-22T12:04:03.019] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:53:11.693] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:53:11.696] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:53:21.001] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:53:21.007] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:53:49.618] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:53:49.624] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:53:49.625] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:53:49.661] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:53:49.662] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:53:51.037] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:53:51.039] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:54:46.092] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:54:46.094] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:54:46.096] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:54:46.097] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:54:47.697] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:54:47.700] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:56:09.456] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:56:09.460] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:56:41.599] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:56:41.604] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:56:51.973] [ERROR] error - Client must be connected before running operations
+[2023-03-27T10:56:51.978] [ERROR] error - Client must be connected before running operations
+[2023-03-27T11:00:19.129] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{
+    _id: {
+      username: {
+        _id: '640f71c0beda3bcddc78b635',
+        username: 'prueba',
+        email: 'prueba@p.com',
+        tel: '+123',
+        password: '$2b$10$L3MvvEnkLhc2ihY3llR1rugTH6jYce5btoneIR5I/EQX8EMI5bD9q',
+        __v: 0
+      }
+    }
+  }" (type Object) at path "_id" for model "usuarios"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: '"{\n' +
+      '  _id: {\n' +
+      '    username: {\n' +
+      "      _id: '640f71c0beda3bcddc78b635',\n" +
+      "      username: 'prueba',\n" +
+      "      email: 'prueba@p.com',\n" +
+      "      tel: '+123',\n" +
+      "      password: '$2b$10$L3MvvEnkLhc2ihY3llR1rugTH6jYce5btoneIR5I/EQX8EMI5bD9q',\n" +
+      '      __v: 0\n' +
+      '    }\n' +
+      '  }\n' +
+      '}"',
+    kind: 'ObjectId',
+    value: { _id: [Object] },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-27T11:00:19.133] [ERROR] error - undefined
+[2023-03-27T11:00:56.141] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{
+    _id: {
+      username: {
+        _id: '640f71c0beda3bcddc78b635',
+        username: 'prueba',
+        email: 'prueba@p.com',
+        tel: '+123',
+        password: '$2b$10$L3MvvEnkLhc2ihY3llR1rugTH6jYce5btoneIR5I/EQX8EMI5bD9q',
+        __v: 0
+      }
+    }
+  }" (type Object) at path "_id" for model "usuarios"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: '"{\n' +
+      '  _id: {\n' +
+      '    username: {\n' +
+      "      _id: '640f71c0beda3bcddc78b635',\n" +
+      "      username: 'prueba',\n" +
+      "      email: 'prueba@p.com',\n" +
+      "      tel: '+123',\n" +
+      "      password: '$2b$10$L3MvvEnkLhc2ihY3llR1rugTH6jYce5btoneIR5I/EQX8EMI5bD9q',\n" +
+      '      __v: 0\n' +
+      '    }\n' +
+      '  }\n' +
+      '}"',
+    kind: 'ObjectId',
+    value: { _id: [Object] },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-27T11:00:56.145] [ERROR] error - undefined
+[2023-03-27T11:01:18.351] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{
+    _id: {
+      username: {
+        _id: '640f71c0beda3bcddc78b635',
+        username: 'prueba',
+        email: 'prueba@p.com',
+        tel: '+123',
+        password: '$2b$10$L3MvvEnkLhc2ihY3llR1rugTH6jYce5btoneIR5I/EQX8EMI5bD9q',
+        __v: 0
+      }
+    }
+  }" (type Object) at path "_id" for model "usuarios"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: '"{\n' +
+      '  _id: {\n' +
+      '    username: {\n' +
+      "      _id: '640f71c0beda3bcddc78b635',\n" +
+      "      username: 'prueba',\n" +
+      "      email: 'prueba@p.com',\n" +
+      "      tel: '+123',\n" +
+      "      password: '$2b$10$L3MvvEnkLhc2ihY3llR1rugTH6jYce5btoneIR5I/EQX8EMI5bD9q',\n" +
+      '      __v: 0\n' +
+      '    }\n' +
+      '  }\n' +
+      '}"',
+    kind: 'ObjectId',
+    value: { _id: [Object] },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-27T11:01:18.355] [ERROR] error - undefined
+[2023-03-27T11:01:45.577] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{
+    _id: {
+      username: {
+        _id: '640f71c0beda3bcddc78b635',
+        username: 'prueba',
+        email: 'prueba@p.com',
+        tel: '+123',
+        password: '$2b$10$L3MvvEnkLhc2ihY3llR1rugTH6jYce5btoneIR5I/EQX8EMI5bD9q',
+        __v: 0
+      }
+    }
+  }" (type Object) at path "_id" for model "usuarios"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: '"{\n' +
+      '  _id: {\n' +
+      '    username: {\n' +
+      "      _id: '640f71c0beda3bcddc78b635',\n" +
+      "      username: 'prueba',\n" +
+      "      email: 'prueba@p.com',\n" +
+      "      tel: '+123',\n" +
+      "      password: '$2b$10$L3MvvEnkLhc2ihY3llR1rugTH6jYce5btoneIR5I/EQX8EMI5bD9q',\n" +
+      '      __v: 0\n' +
+      '    }\n' +
+      '  }\n' +
+      '}"',
+    kind: 'ObjectId',
+    value: { _id: [Object] },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-27T11:01:45.581] [ERROR] error - undefined
+[2023-03-27T11:05:59.898] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: MongoServerClosedError: Server is closed
+      at Server.command (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/sdam/server.js:158:22)
+      at FindOperation.execute (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/find.js:36:16)
+      at FindOperation.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/operation.js:29:18)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at FindOperation.executeAsync (node:internal/util:361:12)
+      at retryOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:172:32)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:127:20) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:05:59.901] [ERROR] error - undefined
+[2023-03-27T11:07:43.006] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: MongoServerClosedError: Server is closed
+      at Server.command (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/sdam/server.js:158:22)
+      at FindOperation.execute (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/find.js:36:16)
+      at FindOperation.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/operation.js:29:18)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at FindOperation.executeAsync (node:internal/util:361:12)
+      at retryOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:172:32)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:127:20) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:09:02.806] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: MongoServerClosedError: Server is closed
+      at Server.command (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/sdam/server.js:158:22)
+      at FindOperation.execute (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/find.js:36:16)
+      at FindOperation.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/operation.js:29:18)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at FindOperation.executeAsync (node:internal/util:361:12)
+      at retryOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:172:32)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:127:20) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:09:02.807] [ERROR] error - undefined
+[2023-03-27T11:09:31.200] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: MongoServerClosedError: Server is closed
+      at Server.command (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/sdam/server.js:158:22)
+      at FindOperation.execute (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/find.js:36:16)
+      at FindOperation.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/operation.js:29:18)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at FindOperation.executeAsync (node:internal/util:361:12)
+      at retryOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:172:32)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:127:20) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:09:31.201] [ERROR] error - undefined
+[2023-03-27T11:09:56.906] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: MongoNotConnectedError: Client must be connected before running operations
+      at executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:24:19)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:12:45
+      at maybeCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/utils.js:338:21)
+      at executeOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:12:38)
+      at FindCursor._initialize (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cursor/find_cursor.js:54:50)
+      at [kInit] (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cursor/abstract_cursor.js:444:14)
+      at next (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cursor/abstract_cursor.js:512:22)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at next (node:internal/util:361:12) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:12:27.104] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: PoolClosedError [MongoPoolClosedError]: Attempted to check out a connection from closed connection pool
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connection_pool.js:375:40
+      at callback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connect.js:67:9)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connect.js:142:13
+      at Connection.onMessage (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connection.js:242:9)
+      at MessageStream.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connection.js:61:60)
+      at MessageStream.emit (node:events:513:28)
+      at processIncomingData (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/message_stream.js:125:16)
+      at MessageStream._write (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:392:12)
+      at _write (node:internal/streams/writable:333:10) {
+    address: 'localhost:27017',
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:13:47.749] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: ObjectParameterError: Parameter "filter" to findOne() must be an object, got {username: [object Object]}
+      at Query.findOne (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:2608:16)
+      at Function.findOne (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/model.js:2364:13)
+      at UsersMongoDb.getByField (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/contenedores/contenedorMongoDb.js:52:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[2023-03-27T11:14:40.455] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: ObjectParameterError: Parameter "filter" to findOne() must be an object, got {username: [object Object]}
+      at Query.findOne (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:2608:16)
+      at Function.findOne (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/model.js:2364:13)
+      at UsersMongoDb.getByField (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/contenedores/contenedorMongoDb.js:52:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/routers/routerAuth.js:55:27
+}
+[2023-03-27T11:15:19.010] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: ObjectParameterError: Parameter "filter" to findOne() must be an object, got {username: [object Object]}
+      at Query.findOne (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:2608:16)
+      at Function.findOne (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/model.js:2364:13)
+      at UsersMongoDb.getByField (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/contenedores/contenedorMongoDb.js:52:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/routers/routerAuth.js:55:31
+}
+[2023-03-27T11:15:19.012] [ERROR] error - undefined
+[2023-03-27T11:19:49.161] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: ObjectParameterError: Parameter "filter" to findOne() must be an object, got {email: prueba@p.com}
+      at Query.findOne (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:2608:16)
+      at Function.findOne (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/model.js:2364:13)
+      at UsersMongoDb.getByField (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/contenedores/contenedorMongoDb.js:52:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async Strategy._verify (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/routers/routerAuth.js:34:31)
+}
+[2023-03-27T11:50:54.701] [ERROR] error - ReferenceError: nll is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/routers/routerAuth.js:58:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-27T11:51:32.262] [ERROR] error - ReferenceError: nll is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/routers/routerAuth.js:58:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-27T11:51:36.983] [ERROR] error - ReferenceError: nll is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/routers/routerAuth.js:58:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-27T11:51:56.652] [ERROR] error - ReferenceError: unll is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/routers/routerAuth.js:58:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-27T11:51:58.153] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: MongoServerClosedError: Server is closed
+      at Server.command (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/sdam/server.js:158:22)
+      at FindOperation.execute (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/find.js:36:16)
+      at FindOperation.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/operation.js:29:18)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at FindOperation.executeAsync (node:internal/util:361:12)
+      at retryOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:172:32)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:127:20) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:51:58.154] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: MongoServerClosedError: Server is closed
+      at Server.command (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/sdam/server.js:158:22)
+      at FindOperation.execute (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/find.js:36:16)
+      at FindOperation.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/operation.js:29:18)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at FindOperation.executeAsync (node:internal/util:361:12)
+      at retryOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:172:32)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:127:20) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:51:58.216] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: MongoServerClosedError: Server is closed
+      at Server.command (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/sdam/server.js:158:22)
+      at FindOperation.execute (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/find.js:36:16)
+      at FindOperation.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/operation.js:29:18)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at FindOperation.executeAsync (node:internal/util:361:12)
+      at retryOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:172:32)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:127:20) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:51:58.217] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: MongoServerClosedError: Server is closed
+      at Server.command (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/sdam/server.js:158:22)
+      at FindOperation.execute (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/find.js:36:16)
+      at FindOperation.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/operation.js:29:18)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at FindOperation.executeAsync (node:internal/util:361:12)
+      at retryOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:172:32)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:127:20) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:55:40.290] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: PoolClosedError [MongoPoolClosedError]: Attempted to check out a connection from closed connection pool
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connection_pool.js:375:40
+      at callback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connect.js:67:9)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connect.js:142:13
+      at Connection.onMessage (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connection.js:242:9)
+      at MessageStream.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connection.js:61:60)
+      at MessageStream.emit (node:events:513:28)
+      at processIncomingData (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/message_stream.js:125:16)
+      at MessageStream._write (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:392:12)
+      at _write (node:internal/streams/writable:333:10) {
+    address: 'localhost:27017',
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:55:40.291] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: PoolClosedError [MongoPoolClosedError]: Attempted to check out a connection from closed connection pool
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connection_pool.js:375:40
+      at callback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connect.js:67:9)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connect.js:142:13
+      at Connection.onMessage (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connection.js:242:9)
+      at MessageStream.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/connection.js:61:60)
+      at MessageStream.emit (node:events:513:28)
+      at processIncomingData (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/message_stream.js:125:16)
+      at MessageStream._write (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:392:12)
+      at _write (node:internal/streams/writable:333:10) {
+    address: 'localhost:27017',
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:56:59.716] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: MongoServerClosedError: Server is closed
+      at Server.command (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/sdam/server.js:158:22)
+      at FindOperation.execute (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/find.js:36:16)
+      at FindOperation.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/operation.js:29:18)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at FindOperation.executeAsync (node:internal/util:361:12)
+      at retryOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:172:32)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:127:20) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:56:59.717] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByField',
+  detalle: MongoServerClosedError: Server is closed
+      at Server.command (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/sdam/server.js:158:22)
+      at FindOperation.execute (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/find.js:36:16)
+      at FindOperation.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/operation.js:29:18)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at FindOperation.executeAsync (node:internal/util:361:12)
+      at retryOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:172:32)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:127:20) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:57:38.254] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByUsername',
+  detalle: MongoServerClosedError: Server is closed
+      at Server.command (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/sdam/server.js:158:22)
+      at FindOperation.execute (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/find.js:36:16)
+      at FindOperation.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/operation.js:29:18)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at FindOperation.executeAsync (node:internal/util:361:12)
+      at retryOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:172:32)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:127:20) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-27T11:57:38.255] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByUsername',
+  detalle: MongoServerClosedError: Server is closed
+      at Server.command (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/sdam/server.js:158:22)
+      at FindOperation.execute (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/find.js:36:16)
+      at FindOperation.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/operation.js:29:18)
+      at node:internal/util:375:7
+      at new Promise (<anonymous>)
+      at FindOperation.executeAsync (node:internal/util:361:12)
+      at retryOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:172:32)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongodb/lib/operations/execute_operation.js:127:20) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-03-28T14:33:37.919] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:35:06.501] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:36:06.873] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:36:16.768] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:38:00.816] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:38:44.217] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'none' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'none' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'none' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:39:43.371] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:40:01.290] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:40:25.757] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:41:02.851] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:43:41.821] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:50:42.077] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:50:49.364] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:51:35.594] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:52:17.298] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:52:48.056] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'preciosUSD' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'preciosUSD' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'preciosUSD' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:53:08.137] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'precios' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'precios' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'precios' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:55:11.197] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: '2' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: '2' }"`,
+    kind: 'ObjectId',
+    value: { _id: '2' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T14:55:39.750] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'none' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'none' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'none' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-03-28T15:06:55.422] [ERROR] error - ReferenceError: producto is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:41:61
+    at Array.map (<anonymous>)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:39:40
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:07:12.387] [ERROR] error - ReferenceError: producto is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:41:61
+    at Array.map (<anonymous>)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:39:40
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:07:13.471] [ERROR] error - ReferenceError: producto is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:41:61
+    at Array.map (<anonymous>)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:39:40
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:07:22.614] [ERROR] error - ReferenceError: producto is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:41:61
+    at Array.map (<anonymous>)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:39:40
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:08:25.127] [ERROR] error - ReferenceError: producto is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:41:61
+    at Array.map (<anonymous>)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:39:40
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:08:45.476] [ERROR] error - ReferenceError: producto is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:41:61
+    at Array.map (<anonymous>)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:39:40
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:09:41.109] [ERROR] error - ReferenceError: producto is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:41:61
+    at Array.map (<anonymous>)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:39:40
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:09:56.654] [ERROR] error - ReferenceError: producto is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:41:61
+    at Array.map (<anonymous>)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:39:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:10:11.811] [ERROR] error - ReferenceError: producto is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:41:61
+    at Array.map (<anonymous>)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:39:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:10:39.829] [ERROR] error - ReferenceError: productosUSD is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:50:18
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:11:07.276] [ERROR] error - ReferenceError: productosUSD is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:50:18
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:11:11.050] [ERROR] error - ReferenceError: productosUSD is not defined
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:50:18
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:16:03.463] [ERROR] error - ReferenceError: productos is not defined
+    at mapearProductos (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:30:9)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:44:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-28T15:16:05.256] [ERROR] error - ReferenceError: productos is not defined
+    at mapearProductos (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:30:9)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:44:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

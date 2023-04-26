@@ -1,0 +1,19 @@
+{{>header}}
+<main class="mb-5">
+  <h1 class="text-center mb-5">Lista de precios</h1>
+  
+    {{#each productos}}
+        <div class="card w-25 botonesProductos">
+            <div class="card-body">
+              <h5 class="card-title">{{this.nombre}}</h5>
+              <p class="card-text">Precio: AR${{this.precioARS}}</p>
+              <p class="card-text">Precio: USD{{this.precioDolar}}</p>
+
+            </div>
+          </div>
+        
+    {{/each}}
+    </div>  
+
+</main>
+{{>footer}}

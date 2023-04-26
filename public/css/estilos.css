@@ -1,0 +1,28 @@
+h1 {
+    color: blue;
+}
+
+label {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.jumbotron {
+    min-height: 50vh;
+}
+
+.smallImg{
+    width: 75px
+}
+
+.email{
+    color: blue
+}
+
+.fecha{
+    color: brown
+}
+
+.mensaje{
+    color: green
+}

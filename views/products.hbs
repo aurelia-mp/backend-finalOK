@@ -1,0 +1,36 @@
+{{>header}}
+<main class="mb-5">
+  <h1 class="text-center mb-5">Todos los vinos en stock</h1>
+    <div class="text-center mb-5">
+      {{#unless idCarrito}}
+      <form action="/api/carritos" method="POST" enctype="multipart/form-data">
+        <button class="btn btn-danger">
+          Iniciar una compra
+        </button>
+      </form>
+      {{/unless}}
+    </div>
+
+    <div class="container d-flex flex-wrap">
+      <div class="container d-flex flex-wrap">
+            <h3>Id del Carrito en curso: {{idCarrito}}</h3>
+      </div>
+    {{#each productos}}
+      
+        <div class="card w-25 botonesProductos">
+            <img src={{this.thumbnail}} class="card-img-top" alt={{this.nombre}}>
+            <div class="card-body">
+              <h5 class="card-title">{{this.nombre}}</h5>
+              <p class="">{{this.descripcion}}</p>
+              <p class="card-text">Precio: AR${{this.precio}}</p>
+              <form action="../../../api/carritos/{{../idCarrito}}/productos/{{this._id}}" method="POST">
+                <button type="submit" class="btn btn-primary btn-compra">Comprar</button>
+              </form>
+            </div>
+          </div>
+        
+    {{/each}}
+    </div>  
+
+</main>
+{{>footer}}
