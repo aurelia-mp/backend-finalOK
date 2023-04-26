@@ -31,7 +31,7 @@ export default {
         path: './DB'
     },
     mongodb: {
-        cnxStr: 'mongodb://localhost:27017/ecommerce',
+        cnxStr: 'mongodb+srv://aureliamp:sQaQZAiOvFoVvsHj@cluster0.4btgkst.mongodb.net/test',
         options: {
             useNewUrlParser: true,
             useUnifiedTopology: true,

@@ -40,12 +40,12 @@ const soloAdmins = (req, res, next) =>{
 }
 
 // Rutas
-routerProductos.get('', soloAdmins, getProductos)
+routerProductos.get('', getProductos)
 routerProductos.get('/preciosUSD', listarPreciosUSD)
 routerProductos.get('/producto/:id', getProductoById)
 routerProductos.post('', soloAdmins, upload.single('file'), crearProducto)
 routerProductos.put('/producto/:id', soloAdmins, modificarProductoById)
-routerProductos.delete('/producto/:id', borrarProductoById)
+routerProductos.delete('/producto/:id', soloAdmins, borrarProductoById)
 routerProductos.delete('', borrarTodos)
 
 export default routerProductos
