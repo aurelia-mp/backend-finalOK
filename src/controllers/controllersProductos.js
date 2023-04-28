@@ -2,7 +2,7 @@ import {
     productosDao as productosApi,
 } from '../daos/index.js'
 
-import { logError, logWarn } from '../../scripts/loggers/loggers.js'
+import { logInfo, logError, logWarn } from '../../scripts/loggers/loggers.js'
 import { carritoEnCurso } from './controllersCarrito.js'
 import ProductoDTO from '../clases/ProductoDTO.js'
 import Cotizador from '../clases/Cotizador.js'
@@ -46,9 +46,10 @@ export const listarPreciosUSD = (req, res) =>{
 export const getProductoById = (req,res) =>{
         let id = req.params.id
         productosApi.getById(id)
-        .then(resp => 
-            resp ? 
-                res.send(resp)
+        .then(producto => 
+            producto ? 
+                res.render('editar', {producto: producto})
+                // res.send(resp)
                 :
                 res.send({error: 'producto no encontrado'}) 
             )
@@ -73,10 +74,13 @@ export const modificarProductoById = (req,res) =>{
         ...req.body,
         timestamp:timestamp
     }
+
+    logInfo(cambios)
+
     productosApi.udpateById(id, cambios)
 
-    .then(()=>{
-        res.send(`Producto ${id} actualizado`)
+    .then((respuesta)=>{
+        res.send(`Producto ${id} actualizado` + respuesta)
     })
 }
 
@@ -90,7 +94,7 @@ export const crearProducto = (req,res,next) =>{
         error.httpStatusCode = 400
         // se comenta el return para poder guardar registros via postman, sin subir la imagen
         // return next(error)
-        console.log('Error al subir el archivo, producto guardado sin imagen' + error)
+        logWarn('Error al subir el archivo, producto guardado sin imagen' + error)
         thumbnail = "none"
     }
     
@@ -114,7 +118,7 @@ export const crearProducto = (req,res,next) =>{
     productosApi.save(producto)
 
     .then(() =>{
-        console.log('Producto guardado')
+        logInfo('Producto guardado')
         productosApi.getAll()
         .then((listaProductos) =>{
             res.render('main', {listaProductos})

@@ -39,6 +39,9 @@ const soloAdmins = (req, res, next) =>{
     }
 }
 
+
+routerProductos.use((express.json()))
+
 // Rutas
 routerProductos.get('', getProductos)
 routerProductos.get('/preciosUSD', listarPreciosUSD)

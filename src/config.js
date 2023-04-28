@@ -36,7 +36,7 @@ export default {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             // useCreateIndex: true,
-            serverSelectionTimeoutMS: 5000,
+            serverSelectionTimeoutMS: 5000
         }
     },
     firebase: {

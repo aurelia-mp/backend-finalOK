@@ -31,18 +31,28 @@ let idCarrito
 passport.use('local', new LocalStrategy(
     async function(username, password, done){
         // const existeUsuario = await model.usuarios.findOne({email: username})
-        const existeUsuario = await users.getByEmail(username)
+        try{
+            const existeUsuario = await users.getByEmail(username)
         // usuarioActual = existeUsuario
-        if(!existeUsuario){
-            console.log('usuario no encontrado')
-            return done(null, false)
-        }
-        else{
-            const match = await verifyPass(existeUsuario, password)
-            if (!match) {
+            if(!existeUsuario){
+                logInfo('usuario no encontrado')
                 return done(null, false)
             }
-            return done(null, existeUsuario);
+            else{
+                try{
+                    const match = await verifyPass(existeUsuario, password)
+                    if (!match) {
+                        return done(null, false)
+                    }
+                    return done(null, existeUsuario);
+                }
+                catch(err){
+                    logError('Error en la verificacion de password')
+                }
+            }
+        }
+        catch(err){
+            logError('Problema en la autenticación')
         }
     }
 ))

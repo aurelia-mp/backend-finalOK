@@ -9,12 +9,9 @@ let userSchema = {
 }
 
 class UsersMongoDb extends containerMongo {
-
     constructor() {
         super('usuarios', userSchema)
     }
-
-
 }
 
 export default UsersMongoDb

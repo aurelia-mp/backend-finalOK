@@ -1,0 +1,46 @@
+{{>header}}
+<main class="mb-5">
+
+<div class="container my-5">
+    <div class="jumbotron">
+    <h3>Producto a editar: </h3>
+    <div class="card w-25 botonesProductos">
+        <img src={{producto.thumbnail}} class="card-img-top" alt={{producto.nombre}}>
+        <div class="card-body">
+            <h5 class="card-title">{{producto.nombre}}</h5>
+            <p class="">{{producto.descripcion}}</p>
+            <p class="card-text">Precio: AR${{producto.precio}}</p>
+        </div>
+    </div>
+
+    <h1>Ingresar los datos a modificar</h1>
+    <br>
+    <form action="/api/productos/producto/{{producto._id}}" method="POST" enctype="multipart/form-data" id="formEditar">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" aria-describedby="nombre" name="nombre">
+        </div>
+        <div class="mb-3">
+          <label for="descripcion" class="form-label">Descripción</label>
+          <input type="text" class="form-control" id="descripcion" aria-describedby="descripcion" name="descripcion">
+        </div>
+         <div class="mb-3 row">
+           <div class="col">
+              <label for="codigo" class="form-label">Código</label>
+              <input type="number" class="form-control" id="codigo" aria-describedby="codigo" name="codigo">  
+           </div>
+          <div class="col">
+            <label for="precio" class="form-label">Precio</label>
+            <input type="number" class="form-control" id="precio" name="precio">
+          </div>
+          <div class="col">
+            <label for="stock" class="form-label">Stock</label>
+            <input type="number" class="form-control" id="stock" name="stock">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-editar" id="{{producto._id}}">Modificar</button>
+    </form> 
+
+</div>
+
+{{>footer}}

@@ -40,7 +40,7 @@ const getCarrito = (req,res) => {
     let id= req.params.id
     carritosApi.getById(id)
     .then((carrito) => {
-        console.log(carrito)
+        logInfo(carrito)
         let prods = carrito[0]["items"]
         res.json({"Productos en el carrito:" : prods})
     })

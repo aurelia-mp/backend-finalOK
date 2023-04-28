@@ -24,7 +24,6 @@ const mostrarDatosProcesos = (req,res)=>{
         carpeta: process.cwd(),
         procesadores: CPU_CORES
     }
-    console.log(datos)
     res.render('info', {datos: datos})
 }
 

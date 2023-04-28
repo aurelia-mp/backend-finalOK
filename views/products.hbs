@@ -26,6 +26,8 @@
               <form action="../../../api/carritos/{{../idCarrito}}/productos/{{this._id}}" method="POST">
                 <button type="submit" class="btn btn-primary btn-compra">Comprar</button>
               </form>
+              <button type="submit" class="btn btn-danger btn-delete" id="{{this._id}}">Borrar</button>
+              <a class="btn btn-info" href="/api/productos/producto/{{this._id}}">Editar producto (sólo admin)</a>
             </div>
           </div>
         

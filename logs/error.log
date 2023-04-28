@@ -1115,3 +1115,149 @@
     at mapearProductos (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:30:9)
     at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/Coderhouse-DesafiosBackend/DesafiosBackEnd/desafio7-entregaParcialProyecto/src/controllers/controllersProductos.js:44:30
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-26T11:17:39.038] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método deleteById',
+  detalle: MongoNotConnectedError: Client must be connected before running operations
+      at executeOperationAsync (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/operations/execute_operation.js:24:19)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/operations/execute_operation.js:12:45
+      at maybeCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/utils.js:338:21)
+      at executeOperation (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/operations/execute_operation.js:12:38)
+      at Collection.findOneAndDelete (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/collection.js:345:57)
+      at NativeCollection.<computed> [as findOneAndDelete] (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:209:33)
+      at model.Query.<anonymous> (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:3688:31)
+      at model.Query._wrappedThunk [as _findOneAndDelete] (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/query/wrapThunk.js:29:8)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/kareem/index.js:494:25
+      at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-04-26T12:23:40.163] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método updateById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: '"64493cfe229563b2044b28ea"' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: '"64493cfe229563b2044b28ea"' }"`,
+    kind: 'ObjectId',
+    value: { _id: '"64493cfe229563b2044b28ea"' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-04-28T09:44:33.844] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error al conectarse a mongodb',
+  detalle: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+      at Connection.openUri (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/connection.js:825:32)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:409:10
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+      at Mongoose._promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:1262:10)
+      at Mongoose.connect (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:408:20)
+      at MongoDBClient.connect (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/clases/MongoDBClient.class.js:17:28)
+      at UsersMongoDb.getByEmail (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/contenedores/contenedorMongoDb.js:50:34)
+      at Strategy._verify (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/routers/routerAuth.js:34:43) {
+    reason: TopologyDescription {
+      type: 'ReplicaSetNoPrimary',
+      servers: [Map],
+      stale: false,
+      compatible: true,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      setName: 'atlas-1ri7uo-shard-0',
+      maxElectionId: null,
+      maxSetVersion: null,
+      commonWireVersion: 0,
+      logicalSessionTimeoutMinutes: null
+    },
+    code: undefined
+  }
+}
+[2023-04-28T09:46:29.829] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error al conectarse a mongodb',
+  detalle: MongoParseError: option strictquery is not supported
+      at parseOptions (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/connection_string.js:282:15)
+      at new MongoClient (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/mongo_client.js:45:63)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/connection.js:802:16
+      at new Promise (<anonymous>)
+      at Connection.openUri (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/connection.js:799:19)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:409:10
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+      at Mongoose._promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:1262:10) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-04-28T09:54:24.991] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error al conectarse a mongodb',
+  detalle: MongoParseError: option strictquery is not supported
+      at parseOptions (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/connection_string.js:282:15)
+      at new MongoClient (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/mongo_client.js:45:63)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/connection.js:802:16
+      at new Promise (<anonymous>)
+      at Connection.openUri (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/connection.js:799:19)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:409:10
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+      at Mongoose._promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:1262:10) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-04-28T09:57:35.607] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error al conectarse a mongodb',
+  detalle: MongoParseError: option strictquery is not supported
+      at parseOptions (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/connection_string.js:282:15)
+      at new MongoClient (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/mongo_client.js:45:63)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/connection.js:802:16
+      at new Promise (<anonymous>)
+      at Connection.openUri (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/connection.js:799:19)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:409:10
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+      at Mongoose._promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:1262:10) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-04-28T09:57:35.609] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByEmail',
+  detalle: CustomError {
+    codigo: 500,
+    descripcion: 'Error al conectarse a mongodb',
+    detalle: MongoParseError: option strictquery is not supported
+        at parseOptions (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/connection_string.js:282:15)
+        at new MongoClient (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongodb/lib/mongo_client.js:45:63)
+        at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/connection.js:802:16
+        at new Promise (<anonymous>)
+        at Connection.openUri (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/connection.js:799:19)
+        at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:409:10
+        at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+        at Mongoose._promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:1262:10) {
+      [Symbol(errorLabels)]: Set(0) {}
+    }
+  }
+}
+[2023-04-28T09:57:35.609] [ERROR] error - Problema en la autenticación
