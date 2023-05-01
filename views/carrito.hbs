@@ -1,0 +1,63 @@
+{{>header}}
+<main class="mb-5">
+  <h1 class="text-center mb-5">Tu carrito</h1>
+    <div class="text-center mb-5">
+      {{#unless idCarrito}}
+      <form action="/api/carritos" method="POST" enctype="multipart/form-data">
+        <button class="btn btn-danger">
+          Iniciar una compra
+        </button>
+      </form>
+      {{/unless}}
+    </div>
+
+    <div class="container d-flex flex-wrap">
+      <div class="container d-flex flex-wrap">
+            <h3 class="headerCarrito">Id del Carrito en curso: <span id="idCarrito">{{idCarrito}}</span></h3>
+      </div>
+    {{#each items}}
+      
+        <div class="card w-25 botonesProductos">
+            <img src={{this.thumbnail}} class="card-img-top" alt={{this.nombre}}>
+            <div class="card-body">
+              <h5 class="card-title">{{this.nombre}}</h5>
+              <p class="">{{this.descripcion}}</p>
+              <p class="card-text">Precio: AR${{this.precio}}</p>
+              <button type="submit" class="btn btn-danger btn-eliminar" id="{{this._id}}">Eliminar del carrito</button>
+            </div>
+          </div>
+        
+    {{/each}}
+
+     </div> 
+
+     <div class="mt-4 ms-5">
+    {{#if items}}
+     {{#if idCarrito}}
+      <form action="/api/carritos/{{idCarrito}}/finalizarCompra" method="POST" enctype="multipart/form-data">
+        <button class="btn btn-danger">
+            Finalizar compra
+        </button>
+      </form>
+      {{/if}}
+     {{/if}}
+
+
+        
+     {{#unless items}}
+        <h4>Tu carrito está vacío</h4>
+     {{/unless}}
+
+        <div class="mt-4">
+            <a class="btn btn-primary" href="/api/productos">
+                Seguir comprando
+            </a>
+        </div>
+
+        <div class="mt-4">
+            <button type="submit" class="btn btn-danger btn-eliminar-carrito" id="{{idCarrito}}">Borrar el carrito</button>
+        </div>
+   
+   
+</main>
+{{>footer}}

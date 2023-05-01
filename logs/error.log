@@ -1261,3 +1261,138 @@
   }
 }
 [2023-04-28T09:57:35.609] [ERROR] error - Problema en la autenticación
+[2023-04-30T16:50:12.697] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error al conectarse a mongodb',
+  detalle: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+      at Connection.openUri (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/connection.js:825:32)
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:409:10
+      at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+      at Mongoose._promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:1262:10)
+      at Mongoose.connect (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:408:20)
+      at MongoDBClient.connect (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/clases/MongoDBClient.class.js:17:28)
+      at UsersMongoDb.getByEmail (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/contenedores/contenedorMongoDb.js:50:34)
+      at Strategy._verify (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/routers/routerAuth.js:35:47) {
+    reason: TopologyDescription {
+      type: 'ReplicaSetNoPrimary',
+      servers: [Map],
+      stale: false,
+      compatible: true,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      setName: 'atlas-1ri7uo-shard-0',
+      maxElectionId: null,
+      maxSetVersion: null,
+      commonWireVersion: 0,
+      logicalSessionTimeoutMinutes: null
+    },
+    code: undefined
+  }
+}
+[2023-04-30T16:50:12.699] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método getByEmail',
+  detalle: CustomError {
+    codigo: 500,
+    descripcion: 'Error al conectarse a mongodb',
+    detalle: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+        at Connection.openUri (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/connection.js:825:32)
+        at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:409:10
+        at /Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+        at Mongoose._promiseOrCallback (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:1262:10)
+        at Mongoose.connect (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/index.js:408:20)
+        at MongoDBClient.connect (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/clases/MongoDBClient.class.js:17:28)
+        at UsersMongoDb.getByEmail (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/contenedores/contenedorMongoDb.js:50:34)
+        at Strategy._verify (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/routers/routerAuth.js:35:47) {
+      reason: [TopologyDescription],
+      code: undefined
+    }
+  }
+}
+[2023-04-30T16:50:12.700] [ERROR] error - Problema en la autenticación
+[2023-05-01T10:57:54.747] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método deleteById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "carritos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'undefined' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'undefined' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-05-01T10:59:13.416] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método deleteById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "carritos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'undefined' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'undefined' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-05-01T10:59:28.115] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error con el método deleteById',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "carritos"
+      at model.Query.exec (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:4913:21)
+      at Query.then (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:5012:15)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: 'undefined' }"`,
+    kind: 'ObjectId',
+    value: { _id: 'undefined' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/bson/lib/error.js:41:28)
+        at new ObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/bson/lib/objectid.js:67:23)
+        at castObjectId (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/cast/objectid.js:20:14)
+        at ObjectId.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schema/objectid.js:246:12)
+        at SchemaType.applySetters (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1201:12)
+        at SchemaType._castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1648:15)
+        at SchemaType.castForQuery (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1636:15)
+        at SchemaType.castForQueryWrapper (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/schematype.js:1612:20)
+        at cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/cast.js:286:34)
+        at Query.cast (/Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/node_modules/mongoose/lib/query.js:5341:12),
+    valueType: 'Object'
+  }
+}
+[2023-05-01T11:01:00.334] [ERROR] error - Problema en la autenticación
+[2023-05-01T11:01:09.893] [ERROR] error - Problema en la autenticación
+[2023-05-01T11:03:10.322] [ERROR] error - Problema en la autenticación
+[2023-05-01T11:03:30.624] [ERROR] error - Problema en la autenticación

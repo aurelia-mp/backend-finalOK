@@ -19,6 +19,7 @@ const agregarEventosBotones = () =>{
       
     // }
 
+    // AXIOS - DELETE PRODUCTOS
     const deleteButtons = document.getElementsByClassName('btn-delete')
     if(deleteButtons){
         for (let i = 0; i < deleteButtons.length; i++) {
@@ -34,6 +35,7 @@ const agregarEventosBotones = () =>{
         }
     }
 
+    // AXIOS - PUT PRODUCTOS
     const form = document.getElementById("formEditar");
     if (form) {
         form.addEventListener("submit", (e) => {
@@ -69,38 +71,53 @@ const agregarEventosBotones = () =>{
         });
     }
 
-    // const editButtons = document.getElementsByClassName('btn-editar')
-    // for (let i = 0; i < editButtons.length; i++) {
-    //     const btn = editButtons[i]
-    //     const idProducto = editButtons[i].id
-    //     let producto = {
-    //         ...req.body,
-    //         thumbnail: thumbnail,
-    //         timestamp: timestamp
-    //     }
-    //     btn.addEventListener('click', () =>{
-    //         axios.put(`../../../api/productos/producto/${idProducto}`,
-    //         {
-    //             "nombre": name,
-    //             "descripcion": "Gran vino para regalar",
-    //             "codigo": "4234119",
-    //             "precio": "9900",
-    //             "stock": "50",
-    //             "thumbnail": "/upload/item1.jpeg"
-    //         })
-    //         .then(res => (btn.innerHTML= 'Producto Modficado'))
-    //         .catch(error =>{
-    //             btn.parentElement.innerHTML = 'Se produjo un error. Quizás no tenga los permisos necesarios para esta acción'
-    //         })
-    //     })
-    // }
+    // AXIOS - DELETE REQUEST - BORRAR PRODUCTOS DEL CARRITO
+    const deleteFromCartButtons = document.getElementsByClassName('btn-eliminar')
+    
+    
+    if(deleteFromCartButtons){
+        // Obtener id del carrito
+        const spanIdCarrito = document.getElementById('idCarrito')
+        let idCarrito
+        if(spanIdCarrito){
+            idCarrito = spanIdCarrito.innerHTML
+        }
 
-    // for (let i = 0; i < deleteButtons.length; i++) {
-    //     const btn = deleteButtons[i]
-    //     const identifier = btn.dataset.target;
-    //     console.log(identifier)
-    //     btn.addEventListener('click', () => addToCart(identifier))
-    // }
+        for (let i = 0; i < deleteFromCartButtons.length; i++) {
+            const btn = deleteFromCartButtons[i]
+            const idProducto = deleteFromCartButtons[i].id
+            btn.addEventListener('click', () =>{
+                axios.delete(`/api/carritos/${idCarrito}/productos/${idProducto}`)
+                .then(res => (btn.innerHTML= 'Eliminado'))
+                    setTimeout(() => {
+                        location.href = `/api/carritos/${idCarrito}/productos`
+                    }, 2000)
+                .catch(error =>{
+                    btn.parentElement.innerHTML = 'Se produjo un error.'
+                   
+                })
+            })
+        }
+    }
+    
+    // AXIOS - DELETE REQUEST -BORRAR EL CARRITO
+    const btnBorrarCarrito = document.getElementsByClassName('btn-eliminar-carrito')
+    
+    if(btnBorrarCarrito.length){
+        // Obtener id del carrito
+        const idCarrito = btnBorrarCarrito[0].id
+
+        btnBorrarCarrito[0].addEventListener('click', () =>{
+            axios.delete(`/api/carritos/${idCarrito}`)
+            .then(res => (btnBorrarCarrito[0].innerHTML= 'Carrito eliminado'))
+            .catch(error =>{
+                btnBorrarCarrito[0].parentElement.innerHTML = 'Se produjo un error.'
+               
+            })
+        })
+
+        
+    }
 }
 
 

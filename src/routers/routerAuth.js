@@ -33,7 +33,7 @@ passport.use('local', new LocalStrategy(
         // const existeUsuario = await model.usuarios.findOne({email: username})
         try{
             const existeUsuario = await users.getByEmail(username)
-        // usuarioActual = existeUsuario
+            usuarioActual = existeUsuario
             if(!existeUsuario){
                 logInfo('usuario no encontrado')
                 return done(null, false)
@@ -67,8 +67,7 @@ passport.deserializeUser((nombre, done) => {
         done(null,res)
     }))
     .catch((err) =>{
-        logError(err)
-        console.log('error desde deserializacion' + err)
+        logError('error desde deserializacion' + err)
     })
     // model.usuarios.find({username: nombre})
     // .then((res=>{

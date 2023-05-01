@@ -5,7 +5,7 @@ import {
 import { enviarEmailPedido } from '../../scripts/mailer.js'
 import enviarWA from '../../scripts/twilio.js';
 import { usuarioActual } from '../routers/routerAuth.js';
-import { logWarn } from '../../scripts/loggers/loggers.js'
+import { logInfo, logWarn } from '../../scripts/loggers/loggers.js'
 
 let carritoEnCurso
 
@@ -40,10 +40,10 @@ const getCarrito = (req,res) => {
     let id= req.params.id
     carritosApi.getById(id)
     .then((carrito) => {
-        logInfo(carrito)
-        let prods = carrito[0]["items"]
-        res.json({"Productos en el carrito:" : prods})
-    })
+        let prods = carrito["items"]
+        //res.json({"Productos en el carrito:" : prods})
+        res.render('carrito', {idCarrito: id, items: prods})
+                })
     .catch((err) =>{
         logWarn(err)
         res.send("El carrito requerido no existe" + err)
@@ -63,7 +63,7 @@ const agregarItemAlCarrito  = (req,res)  =>{
     productosApi.getById(id_prod)
 
     .then((productoNuevo)=>{
-        console.log(productoNuevo)
+        logInfo(`{productoNuevo} agregado al carrito`)
         carritosApi.getById(id)
         .then((carritoAActualizar) =>{
             let carrito = JSON.stringify(carritoAActualizar)
@@ -73,14 +73,19 @@ const agregarItemAlCarrito  = (req,res)  =>{
             prods.push(productoNuevo)
             let cart_timestamp = Date.now()
             carritosApi.udpateById(id, {"items": prods, cart_timestamp})
-            res.send("Carrito actualizado")
+            // res.send("Carrito actualizado")
+            .then((carrito) =>{
+                    res.render('carrito', {idCarrito: id, items: carrito.items})
+                })
+            })
+            
         })
         .catch((err) =>{
             logWarn(err)
             res.send("Error al actualizar el carrito" + err)
         })
-    })
-}
+    }
+
 
 const agregarVariosItemsAlCarrito  = (req, res) =>{
     // Carga un nuevo array de productos a un carrito
@@ -104,12 +109,13 @@ const borrarItemDelCarrito = (req,res) =>{
     let id = req.params.id
     let id_prod = req.params.id_prod
     // parsea el id producto solo si es un numero-  lo deja igual si es un string
-    !isNaN(parseInt(id_prod)) && (id_prod = parseInt(id_prod))
-    
+    // !isNaN(parseInt(id_prod)) && (id_prod = parseInt(id_prod))
+    isNaN(id_prod) ? id_prod : (id_prod = parseInt(id_prod))
     carritosApi.getById(id)
     .then((carrito)=>{
-        let prods= carrito[0]["items"]
-        let index = prods.findIndex((el) => el.id === id_prod)
+        //let prods= carrito[0]["items"]
+        let prods = carrito["items"]
+        let index = prods.findIndex((el) => el._id == id_prod)
         if (index === -1){
             res.send('Error: Este producto no se encuentra en el carrito')
             return
@@ -129,6 +135,7 @@ const enviarConfirmacion = async (req, res) =>{
     let id = req.params.id
     let numero
     usuarioActual && (numero = usuarioActual.tel)
+    console.log('usuario actual'+ usuarioActual)
 
     // Envío de mail
     let carrito = await carritosApi.getById(id)

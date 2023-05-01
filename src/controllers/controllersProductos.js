@@ -6,6 +6,7 @@ import { logInfo, logError, logWarn } from '../../scripts/loggers/loggers.js'
 import { carritoEnCurso } from './controllersCarrito.js'
 import ProductoDTO from '../clases/ProductoDTO.js'
 import Cotizador from '../clases/Cotizador.js'
+import { usuarioActual } from '../routers/routerAuth.js'
 
 let idCarrito
 const cotizador = new Cotizador()
@@ -14,7 +15,7 @@ export const getProductos = (req,res) =>{
     productosApi.getAll()
     .then(productos=>{
         carritoEnCurso && (idCarrito = carritoEnCurso)
-        res.render('products', {productos: productos, idCarrito: idCarrito || null })
+        res.render('products', {productos: productos, idCarrito: idCarrito || null, usuarioActual: usuarioActual })
     })
     .catch(err=>{
         logError(err)

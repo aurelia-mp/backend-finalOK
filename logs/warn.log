@@ -4302,3 +4302,944 @@
 [2023-04-28T10:31:21.914] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
 [2023-04-28T10:31:22.050] [WARN] warn - ruta /js/main.js método GET no implementada
 [2023-04-28T10:31:22.236] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T16:50:00.710] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T16:50:00.838] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T16:50:00.996] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T16:51:46.874] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T16:51:46.875] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T16:51:46.933] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T16:51:56.572] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T16:51:56.711] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T16:51:56.903] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T16:52:01.476] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T16:52:01.614] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T16:52:01.751] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T16:52:01.900] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T16:52:04.240] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T16:52:04.251] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T16:52:04.421] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T16:52:41.166] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T16:52:41.304] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T16:52:41.441] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T16:52:41.578] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T16:52:41.739] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T16:53:36.587] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T16:53:36.725] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T16:53:36.863] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T16:53:37.004] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T16:53:37.148] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T16:53:37.295] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T16:53:40.349] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T16:53:40.486] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T16:53:40.623] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T16:53:40.762] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T16:53:40.900] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T16:53:41.048] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T16:53:43.907] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T16:53:44.044] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T16:53:44.180] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T16:53:44.319] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T16:53:44.457] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T16:53:44.602] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T16:53:56.605] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:00:07.875] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:00:13.185] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:00:13.321] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:00:13.486] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:00:50.121] [WARN] warn - ruta /api/carritos/644ec745e786d8f65de720fc/productos/644ec707e786d8f65de720e4 método GET no implementada
+[2023-04-30T17:00:50.304] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:01:17.084] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:01:17.281] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:01:23.481] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:01:23.618] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:01:23.764] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:01:59.094] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:01:59.096] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:01:59.129] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:02:07.507] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:02:07.644] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:02:07.805] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:02:13.828] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:02:13.966] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:02:14.103] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T17:02:14.252] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:02:14.391] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:02:14.539] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:02:15.648] [WARN] warn - ruta /api/carritos//productos/644ec73ee786d8f65de720ec método POST no implementada
+[2023-04-30T17:02:42.703] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:02:46.014] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:02:46.151] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:02:46.291] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T17:02:46.429] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:02:46.567] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:02:46.719] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:02:52.845] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:02:52.984] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:02:53.150] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:04:06.688] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:04:06.825] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:04:06.972] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T17:04:07.111] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:04:07.248] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:04:07.398] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:04:08.379] [WARN] warn - ruta /api/carritos//productos/644ec707e786d8f65de720e4 método POST no implementada
+[2023-04-30T17:04:12.572] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:04:15.276] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:04:15.414] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:04:15.554] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T17:04:15.691] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:04:15.830] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:04:15.975] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:04:21.707] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:04:21.844] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:04:22.012] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:05:08.313] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:05:08.449] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:05:08.587] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T17:05:08.724] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:05:08.862] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:05:09.009] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:05:15.862] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:05:16.000] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:05:16.138] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T17:05:16.274] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:05:16.427] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:11:04.000] [WARN] warn - ruta /api/carritos/644ec9bd60f931a0c91f18f2/productos/644ec73ee786d8f65de720ec método GET no implementada
+[2023-04-30T17:11:04.165] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:11:29.053] [WARN] warn - ruta /api/carritos/644ec9bd60f931a0c91f18f2/productos/644ec73ee786d8f65de720ec método GET no implementada
+[2023-04-30T17:11:29.216] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:11:39.779] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:11:41.574] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:11:47.873] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:11:49.609] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:11:50.429] [WARN] warn - ruta /api/carritos/644ec9bd60f931a0c91f18f2/ método GET no implementada
+[2023-04-30T17:11:50.601] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:11:59.382] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:12:01.198] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:14:09.460] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:14:09.483] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:14:27.720] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:14:27.738] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:14:56.420] [WARN] warn - ruta /api/carritos/644ec9bd60f931a0c91f18f2 método GET no implementada
+[2023-04-30T17:14:56.466] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:15:01.986] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:15:02.008] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:16:56.961] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:16:56.991] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:17:12.298] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:17:12.352] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:17:21.600] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:17:21.622] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:19:19.756] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:19:19.893] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:19:19.959] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:19:24.463] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:19:24.481] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:19:29.964] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:19:29.991] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:19:42.052] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:19:42.072] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:19:45.542] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:19:45.559] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:20:23.313] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:20:23.480] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:20:23.549] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:21:00.147] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:21:00.172] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:21:05.256] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:21:05.315] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:21:28.809] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:21:28.834] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:24:13.305] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:24:13.331] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:24:20.691] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:24:20.726] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:24:25.320] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:24:25.503] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:24:27.733] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:24:27.765] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:24:27.848] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:24:39.793] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:24:39.930] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:24:40.143] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:24:43.037] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:24:43.176] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:24:43.325] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T17:24:43.461] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:24:43.597] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:24:43.745] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:24:44.570] [WARN] warn - ruta /api/carritos//productos/644ec707e786d8f65de720e4 método POST no implementada
+[2023-04-30T17:25:12.894] [WARN] warn - ruta /api/carritos//productos/644ec707e786d8f65de720e4 método GET no implementada
+[2023-04-30T17:25:13.064] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:25:13.238] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:25:13.375] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:25:16.054] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:25:16.192] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:25:16.328] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T17:25:16.480] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:25:16.619] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:25:16.766] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:25:36.144] [WARN] warn - ruta /api/carritos/644eceaa6834e32ec312dc74/productos/644ec707e786d8f65de720e4 método GET no implementada
+[2023-04-30T17:25:36.305] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:25:40.311] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:25:42.012] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:25:46.176] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:25:46.210] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:25:50.471] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:25:50.608] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:25:50.747] [WARN] warn - ruta /upload/item5.jpeg método GET no implementada
+[2023-04-30T17:25:50.884] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:25:51.023] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:25:51.170] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:26:05.450] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:26:05.587] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:26:05.724] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:26:05.862] [WARN] warn - ruta /api/carritos/644eceaa6834e32ec312dc74/productos/class=%22card-img-top%22 método GET no implementada
+[2023-04-30T17:26:06.012] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:26:20.834] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:26:22.562] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:26:25.679] [WARN] warn - ruta /api/carritos/644eceaa6834e32ec312dc74/ método GET no implementada
+[2023-04-30T17:26:25.883] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:26:34.092] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:26:35.836] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:26:53.156] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:26:54.855] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:27:09.809] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:27:11.562] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:27:12.723] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:27:14.424] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:27:34.351] [WARN] warn - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:43:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:27:36.061] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:27:54.087] [WARN] warn - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:43:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:27:55.815] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:28:02.302] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:28:02.443] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:28:04.164] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:29:15.220] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:29:15.357] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:29:15.572] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:30:15.545] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:43:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:30:17.245] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:31:12.741] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:31:14.562] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:31:36.051] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:31:37.772] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:31:56.715] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:32:39.410] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:32:39.548] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:32:39.686] [WARN] warn - ruta /api/carritos/644eceaa6834e32ec312dc74/productos/class=%22card-img-top%22 método GET no implementada
+[2023-04-30T17:32:39.833] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:33:02.812] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:33:59.604] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:34:19.885] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:34:20.023] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:34:20.159] [WARN] warn - ruta /api/carritos/644eceaa6834e32ec312dc74/productos/class=%22card-img-top%22 método GET no implementada
+[2023-04-30T17:34:20.307] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:35:16.918] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:35:40.826] [WARN] warn - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:44:40
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-30T17:35:40.879] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:36:12.209] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:36:33.612] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:36:52.980] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:37:07.395] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:37:07.406] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:37:07.424] [WARN] warn - ruta /api/carritos/644eceaa6834e32ec312dc74/productos/class=%22card-img-top%22 método GET no implementada
+[2023-04-30T17:37:07.426] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:37:07.522] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:37:24.773] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:37:24.776] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:37:24.780] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:37:24.802] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:37:24.853] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:37:27.700] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:37:27.701] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:37:27.720] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:37:27.724] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:37:27.783] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:37:34.130] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:37:34.133] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:37:34.140] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:37:34.199] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:37:45.028] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:37:45.028] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:37:45.039] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:37:45.080] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:40:55.390] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:40:55.392] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:40:55.466] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:41:05.024] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:41:05.163] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:41:05.346] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:41:11.377] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:41:11.513] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:41:11.650] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:41:11.787] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:41:11.935] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:41:23.318] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:41:23.457] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:41:23.593] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:41:23.774] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:41:47.833] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:41:47.973] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:41:48.112] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:41:48.260] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:41:53.735] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:41:53.875] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:41:54.012] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:41:54.150] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:41:54.297] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:42:02.310] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:42:02.449] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:42:02.585] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:42:02.720] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:42:02.891] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:51:40.957] [WARN] warn - ruta /api/carritos/644ed1874f858a750a1bf518/productos/644ec707e786d8f65de720e4 método GET no implementada
+[2023-04-30T17:51:40.989] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:51:46.748] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:51:46.755] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:51:46.756] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:51:46.772] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:51:46.816] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:51:53.221] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:53:11.679] [WARN] warn - ruta /mpra método GET no implementada
+[2023-04-30T17:53:11.710] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:53:14.578] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:53:14.594] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:53:14.636] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:53:22.168] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:53:22.324] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:53:22.497] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:53:25.522] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:53:25.659] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:53:25.803] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:53:25.940] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:53:26.113] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:53:32.399] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:53:32.538] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:53:32.674] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:53:32.816] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:53:32.989] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:53:47.253] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:54:31.868] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:54:32.006] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:54:32.188] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:54:36.685] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:54:36.824] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:54:36.962] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:54:37.099] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:54:37.250] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:54:39.913] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:54:40.050] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:54:40.187] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:54:40.325] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:54:40.470] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:54:47.399] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:54:47.536] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:54:47.673] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:54:47.825] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:54:51.053] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:55:37.550] [WARN] warn - ruta /api/carritos/644ed58db74869df5e083b82/finalizarCompra método GET no implementada
+[2023-04-30T17:55:37.714] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:56:03.069] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:56:03.073] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:56:03.274] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:56:06.142] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:56:06.284] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:56:06.431] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:56:06.567] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:56:06.715] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:56:09.814] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:56:09.951] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:56:10.089] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:56:10.241] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:56:10.387] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:56:17.069] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:56:17.209] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:56:17.346] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:56:17.496] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:56:20.748] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:56:43.405] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:56:47.126] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:56:47.128] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:56:47.299] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:56:56.393] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:56:56.439] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:56:56.487] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:56:58.515] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:56:58.516] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:56:58.563] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:57:04.526] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:57:04.664] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:57:04.812] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:57:07.705] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:57:07.843] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:57:07.979] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T17:57:08.115] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:57:08.263] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:57:14.208] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:57:14.346] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:57:14.483] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T17:57:14.632] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:57:17.566] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:59:53.074] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:59:53.210] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:59:53.422] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:59:55.929] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:59:55.934] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:59:56.020] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:59:58.023] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:59:58.032] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:59:58.074] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T17:59:59.252] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T17:59:59.257] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T17:59:59.299] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:00:15.391] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:00:15.392] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:00:15.496] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:00:23.660] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:00:23.796] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:00:23.968] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:00:27.242] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:00:27.379] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:00:27.517] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:00:27.654] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:00:27.800] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:00:30.421] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:00:30.557] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:00:30.694] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:00:30.834] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:00:30.980] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:00:37.117] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:00:37.255] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:00:37.393] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:00:37.545] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:01:17.961] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:03:43.439] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:03:43.575] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:03:43.931] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:03:47.860] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:03:47.996] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:03:48.134] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:03:48.270] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:03:48.421] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:03:54.636] [WARN] warn - ruta /api/carritos//productos/644ec707e786d8f65de720e4 método POST no implementada
+[2023-04-30T18:03:56.219] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:03:56.231] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:03:59.046] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:03:59.183] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:03:59.319] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:03:59.457] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:03:59.604] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:04:05.562] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:04:05.700] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:04:05.836] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:04:05.983] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:04:09.067] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:07:54.532] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:07:54.667] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:07:54.843] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:07:57.940] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:07:57.958] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:07:58.055] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:08:00.111] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:08:00.127] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:08:00.160] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:08:10.597] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:08:10.734] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:08:10.908] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:08:14.117] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:08:14.255] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:08:14.391] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:08:14.527] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:08:14.677] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:08:15.531] [WARN] warn - ruta /api/carritos//productos/644ec73ee786d8f65de720ec método POST no implementada
+[2023-04-30T18:08:19.197] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:08:19.218] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:08:21.854] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:08:21.991] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:08:22.130] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:08:22.272] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:08:22.418] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:08:28.819] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:08:28.959] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:08:29.095] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:08:29.245] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:08:33.039] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:10:59.777] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:10:59.917] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:11:00.103] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:11:09.494] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:11:09.632] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:11:09.783] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:11:09.920] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:11:10.069] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:11:12.498] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:11:12.634] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:11:12.772] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:11:12.910] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:11:13.055] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:11:19.274] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:11:19.411] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:11:19.550] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:11:19.699] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:11:22.485] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:11:32.791] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:11:32.802] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:11:32.970] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:11:34.294] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:11:34.301] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:11:34.385] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:11:36.395] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:11:36.396] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:11:36.435] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:11:45.684] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:11:45.684] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:11:45.735] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:11:47.331] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:11:47.340] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:11:47.388] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:12:18.351] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:12:18.355] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:12:18.403] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:12:27.790] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:12:27.935] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:12:28.108] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:14:15.413] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:14:15.414] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:14:15.587] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:14:18.003] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:14:18.148] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:14:18.291] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:14:18.431] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:14:18.578] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:14:47.341] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:16:24.494] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:16:24.631] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:16:24.770] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:16:24.910] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:16:25.061] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:17:50.374] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:17:50.513] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:17:50.653] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:17:50.790] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:17:50.937] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:19:31.230] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:19:31.367] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:19:31.505] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:19:31.644] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:19:31.792] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:19:35.231] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:19:35.368] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:19:35.506] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:19:35.643] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:19:35.790] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:19:38.889] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:19:38.898] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:19:39.079] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:20:27.148] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:20:27.150] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:20:27.338] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:20:28.175] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:20:28.176] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:20:28.227] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:20:30.251] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:20:30.262] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:20:30.312] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:20:36.601] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:20:36.738] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:20:36.892] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:20:38.755] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:20:38.756] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:20:38.938] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-04-30T18:20:42.143] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-04-30T18:20:42.281] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-04-30T18:20:42.418] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-04-30T18:20:42.555] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-04-30T18:20:42.703] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:13:26.284] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:13:26.315] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:13:26.401] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T10:13:26.483] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:13:26.565] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:14:17.984] [WARN] warn - ruta /api/carritos/644edb658b2cafda5ecb59b1/productos/644ec73ee786d8f65de720ec método GET no implementada
+[2023-05-01T10:14:18.041] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:14:18.343] [WARN] warn - ruta /api/carritos/644edb658b2cafda5ecb59b1/productos/644ec73ee786d8f65de720ec método GET no implementada
+[2023-05-01T10:14:18.367] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:14:23.102] [WARN] warn - ruta /api/carritos/644edb658b2cafda5ecb59b1/productos/644ec73ee786d8f65de720ec método GET no implementada
+[2023-05-01T10:14:23.129] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:15:21.665] [WARN] warn - ruta /api/carritos/644edb658b2cafda5ecb59b1/productos/644ec73ee786d8f65de720ec método GET no implementada
+[2023-05-01T10:15:21.692] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:15:26.849] [WARN] warn - ruta /api/carritos/644edb658b2cafda5ecb59b1 método GET no implementada
+[2023-05-01T10:15:26.875] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:15:35.806] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:15:35.819] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:15:35.912] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:16:24.077] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:16:24.079] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:16:24.129] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:18:20.520] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:18:20.523] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:18:20.589] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:18:37.105] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:18:37.106] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:18:37.168] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:19:00.047] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:19:00.053] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:19:00.112] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:19:21.790] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:19:21.795] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:19:21.857] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:19:27.706] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:19:27.711] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:19:27.763] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:19:38.286] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:19:38.293] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:19:38.345] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:19:58.597] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:19:58.598] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:19:58.648] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:20:14.335] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:20:14.336] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:20:14.396] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:30:34.389] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:30:34.394] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:30:34.473] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:30:37.837] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:30:37.849] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:30:37.880] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:30:37.887] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T10:30:37.936] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:31:06.202] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:31:06.203] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:31:06.224] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T10:31:06.231] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:31:06.278] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:31:12.684] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:31:12.686] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:31:12.694] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:31:12.747] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:31:17.389] [WARN] warn - ruta /api/api/carritos/undefined/productos/644ec73ee786d8f65de720ec método DELETE no implementada
+[2023-05-01T10:33:23.748] [WARN] warn - ruta /api/carritos/644fbf19e8f8192305b509b4/productos/644ec73ee786d8f65de720ec método GET no implementada
+[2023-05-01T10:33:23.781] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:33:30.504] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:33:30.513] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:33:30.514] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:33:30.546] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:33:35.174] [WARN] warn - ruta /api/api/carritos//productos/644ec73ee786d8f65de720ec método DELETE no implementada
+[2023-05-01T10:34:43.876] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:34:43.907] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:34:43.909] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:34:43.943] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:34:44.992] [WARN] warn - ruta /api/api/carritos/644fbf19e8f8192305b509b4/productos/644ec73ee786d8f65de720ec método DELETE no implementada
+[2023-05-01T10:35:03.894] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:35:03.897] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:35:03.912] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:35:04.087] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:35:06.165] [WARN] warn - ruta /api/api/carritos/644fbf19e8f8192305b509b4/productos/644ec73ee786d8f65de720ec método DELETE no implementada
+[2023-05-01T10:35:29.841] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:35:29.851] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:35:29.908] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:35:29.941] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:35:30.654] [WARN] warn - ruta /api/carritos/644fbf19e8f8192305b509b4/..%20/api/carritos/644fbf19e8f8192305b509b4/productos/644ec73ee786d8f65de720ec método DELETE no implementada
+[2023-05-01T10:35:45.440] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:35:45.456] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:35:45.460] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:35:45.508] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:36:08.469] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:36:08.482] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:36:08.483] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:36:08.540] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:36:24.238] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:36:24.239] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:36:24.280] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:36:24.304] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:37:05.059] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:37:05.064] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:37:05.075] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:37:05.127] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:37:15.350] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:37:15.351] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:37:15.362] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:37:15.417] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:37:22.180] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:37:22.183] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:37:22.186] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:37:22.243] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:37:23.649] [WARN] warn - ruta /api/carritos/api/carritos/644fbf19e8f8192305b509b4/productos/644ec73ee786d8f65de720ec método DELETE no implementada
+[2023-05-01T10:37:43.347] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:37:43.349] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:37:43.367] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:37:43.419] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:37:46.251] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:116:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-01T10:38:45.289] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:38:45.316] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:38:45.317] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:38:45.369] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:38:50.373] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:116:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-01T10:38:52.336] [WARN] warn - TypeError: Cannot read properties of null (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:43:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-01T10:38:52.372] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:39:06.230] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:39:06.252] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:39:10.543] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:39:10.549] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:39:10.575] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:39:10.630] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:40:54.248] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:40:54.251] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:40:54.258] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:40:54.332] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:40:57.075] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:118:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-01T10:40:59.108] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:40:59.111] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:40:59.120] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:40:59.207] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:41:41.555] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:41:41.576] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:119:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-01T10:41:41.590] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:41:41.591] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:41:41.671] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:42:21.361] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:119:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-01T10:42:23.429] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:42:23.432] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:42:23.457] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:42:23.507] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:44:36.832] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:119:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-01T10:44:38.860] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:44:38.890] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:44:38.894] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:44:38.937] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:45:49.951] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:119:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-01T10:45:51.967] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:45:51.981] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:45:52.014] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:45:52.060] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:45:59.087] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:119:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-01T10:46:01.087] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:46:01.093] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:46:01.103] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:46:01.171] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:46:13.236] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:46:13.248] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:46:13.250] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:46:13.303] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:47:33.893] [WARN] warn - TypeError: Cannot read properties of undefined (reading 'items')
+    at file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/controllers/controllersCarrito.js:119:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-01T10:48:41.000] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:48:41.009] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:48:41.041] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:48:41.096] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:51:27.267] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:51:27.270] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:51:27.343] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:51:30.422] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:51:30.423] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:51:30.461] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:51:30.525] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T10:51:30.551] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:51:34.162] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:51:34.163] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:51:34.177] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T10:51:34.178] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:51:34.229] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:51:41.080] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:51:41.082] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:51:41.095] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T10:51:41.150] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:51:46.891] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:51:46.894] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:51:46.914] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T10:51:46.925] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:51:46.972] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:51:52.802] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:51:52.814] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:51:52.814] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T10:51:52.822] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:51:52.877] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:51:56.640] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:52:00.905] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:52:06.206] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:52:06.210] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:52:06.231] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:52:06.295] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:52:11.948] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:52:11.952] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:52:12.012] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:56:26.697] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:56:26.709] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:56:26.770] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:57:11.965] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:57:11.966] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:57:12.027] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:57:32.632] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:57:32.637] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:57:32.701] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:57:51.643] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:57:51.652] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:57:51.699] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:58:07.488] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:58:07.528] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:58:07.589] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T10:58:07.600] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:58:07.714] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:58:07.795] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:58:10.559] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:58:10.565] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:58:10.574] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:58:10.575] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T10:58:10.630] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:58:45.841] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:58:45.855] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:58:45.891] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T10:58:45.892] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:58:45.992] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:58:49.174] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:58:49.207] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:58:49.225] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T10:58:49.235] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:58:49.255] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T10:59:08.785] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T10:59:08.799] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T10:59:08.800] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T10:59:08.847] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:00:21.636] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:00:21.646] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:00:21.740] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:00:51.081] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:00:51.083] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:00:51.160] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:03:03.761] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:03:03.780] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:03:03.826] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:03:24.856] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:03:24.871] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:03:24.997] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:03:47.657] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:03:47.658] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:03:47.720] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:03:50.170] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:03:50.188] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:03:50.234] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:03:58.746] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:03:58.885] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:03:59.073] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:04:06.031] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:04:06.171] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:04:06.310] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T11:04:06.447] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T11:04:06.594] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:04:13.712] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:04:13.850] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:04:13.989] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T11:04:14.126] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T11:04:14.271] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:04:21.591] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:04:21.727] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:04:21.867] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T11:04:22.015] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:04:34.192] [WARN] warn - ruta /api/carritos/644fc6db18c1fecd1545b677/productos/644ec707e786d8f65de720e4 método GET no implementada
+[2023-05-01T11:04:34.365] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:04:40.827] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:04:40.965] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:04:41.103] [WARN] warn - ruta /upload/item7.jpeg método GET no implementada
+[2023-05-01T11:04:41.250] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:05:08.483] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:05:08.620] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:05:08.757] [WARN] warn - ruta /upload/item4.jpeg método GET no implementada
+[2023-05-01T11:05:08.904] [WARN] warn - ruta /favicon.ico método GET no implementada
+[2023-05-01T11:05:24.628] [WARN] warn - ruta /css/estilos.css método GET no implementada
+[2023-05-01T11:05:24.768] [WARN] warn - ruta /js/main.js método GET no implementada
+[2023-05-01T11:05:24.945] [WARN] warn - ruta /favicon.ico método GET no implementada

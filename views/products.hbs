@@ -23,11 +23,18 @@
               <h5 class="card-title">{{this.nombre}}</h5>
               <p class="">{{this.descripcion}}</p>
               <p class="card-text">Precio: AR${{this.precio}}</p>
+              {{#if ../idCarrito}}
               <form action="../../../api/carritos/{{../idCarrito}}/productos/{{this._id}}" method="POST">
                 <button type="submit" class="btn btn-primary btn-compra">Comprar</button>
               </form>
-              <button type="submit" class="btn btn-danger btn-delete" id="{{this._id}}">Borrar</button>
-              <a class="btn btn-info" href="/api/productos/producto/{{this._id}}">Editar producto (sólo admin)</a>
+              {{/if}}
+              {{#if ../usuarioActual.admin}}
+              <div>
+                <p>Solo admins</p>
+                <button type="submit" class="btn btn-danger btn-delete" id="{{this._id}}">Borrar</button>
+                <a class="btn btn-info" href="/api/productos/producto/{{this._id}}">Editar producto</a>
+              </div>
+              {{/if}}
             </div>
           </div>
         
