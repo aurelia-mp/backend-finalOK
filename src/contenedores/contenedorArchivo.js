@@ -31,7 +31,7 @@ class ContenedorArchivo {
             number = parseInt(number)
             const dataFormateada= JSON.parse(await fs.readFile(this.path, 'utf-8'))
             const elementoFiltrado = dataFormateada.filter((elem) => elem.id===number)
-            return (elementoFiltrado.length !== 0) ? elementoFiltrado 
+            return (elementoFiltrado.length !== 0) ? elementoFiltrado[0] 
                     : null
         } catch(err){
             const custError = new CustomError(500, 'Error con el método getById', err)
@@ -60,7 +60,7 @@ class ContenedorArchivo {
             const dataFormateada= JSON.parse(await fs.readFile(this.path, 'utf-8'))
             const index = dataFormateada.findIndex((elem) => elem.id===number)     
             
-            console.log(index)
+            logInfo('Index del item a actualizar' + index)
 
             if(index===-1){
                 return null
@@ -70,10 +70,12 @@ class ContenedorArchivo {
                 ...dataFormateada[index],   
                 ...cambios
             }
+            console.log('Cambios' + JSON.stringify(cambios))    
+            console.log('Data formateada [index]' + dataFormateada[index])
 
             dataFormateada[index] = elementoActualizado
             await fs.writeFile(this.path, JSON.stringify(dataFormateada, null, 2))
-            return          
+            return elementoActualizado         
         } catch(err){
             const custError = new CustomError(500, 'Error con el método udpateById', err)
             logError(custError)
@@ -114,6 +116,7 @@ class ContenedorArchivo {
     async deleteAll(){
         try{
             await fs.writeFile(this.path, JSON.stringify([], null, 'utf-8'), null)
+            logInfo('Todos los registros fueron borrados')
             return
         } catch(error){
             const custError = new CustomError(500, 'Error con el método deleteAll', err)

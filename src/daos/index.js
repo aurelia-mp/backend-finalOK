@@ -1,7 +1,7 @@
 let productosDao
 let carritosDao
 
-let tipoBdd = 'mongodb'
+let tipoBdd = 'json'
 
 switch (tipoBdd) {
     case 'json':
@@ -27,12 +27,6 @@ switch (tipoBdd) {
         productosDao = new ProductosDaoMongoDb()
         carritosDao = new CarritosDaoMongoDb()
         break
-    // case 'mariadb':
-
-    //     break
-    // case 'sqlite3':
-
-    //     break
     default:
 
         break

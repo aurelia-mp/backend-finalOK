@@ -2,14 +2,15 @@
 
 <div class="container mt-3">
   <h1 class="alert alert-success">
-      Bienvenido {{nombre}} ! 
-      <span class="fs-1">{{email}}</span>
+      Bienvenido {{usuario.nombre}} ! 
+      <span class="fs-1">{{usuario.email}}</span>
           <button class="btn btn-warning float-right mt-2" onclick="location.href='/logout'">
               Desloguear
           </button>
   </h1>
 </div>
 
+{{#if usuario.admin}}
 <h3 class="pb-4">Agregar un producto</h3>
   <form action="/api/productos" method="POST" enctype="multipart/form-data">
     <div class="mb-3">
@@ -41,27 +42,28 @@
     <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
 
-{{#if listaProductos.length}}
-<h3>Producto guardado!</h3>
-<h2>Lista de Productos</h2>
-<div class="table-responsive">
-    <table class="table table-dark">
-        <tr>
-            <th>Nombre</th>
-            <th>Precio</th>
-            <th>Foto</th>
-        </tr>
-         {{!-- Recorrer productos para mostrar en la tabla --}}
-        {{#each listaProductos}}
-        <tr>
-            <td>{{this.nombre}}</td>
-            <td>{{this.precio}}</td>
-            <td><img src=..{{this.thumbnail}} class="smallImg"></td>
-        </tr>
-        {{/each}}
-       
-    </table>
-</div>
+  {{#if listaProductos.length}}
+  <h3>Producto guardado!</h3>
+  <h2>Lista de Productos</h2>
+  <div class="table-responsive">
+      <table class="table table-dark">
+          <tr>
+              <th>Nombre</th>
+              <th>Precio</th>
+              <th>Foto</th>
+          </tr>
+          {{!-- Recorrer productos para mostrar en la tabla --}}
+          {{#each listaProductos}}
+          <tr>
+              <td>{{this.nombre}}</td>
+              <td>{{this.precio}}</td>
+              <td><img src=..{{this.thumbnail}} class="smallImg"></td>
+          </tr>
+          {{/each}}
+        
+      </table>
+  </div>
+  {{/if}}
 {{/if}}
 
 <div class="container mt-3">

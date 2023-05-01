@@ -31,7 +31,8 @@ const borrarCarrito = (req,res) =>{
     carritosApi.deleteById(id)
     .then(resp =>{
         carritoEnCurso = null
-        res.send('Carrito eliminado')
+        res.redirect(303, '/api/productos')
+        // res.send('Carrito eliminado')
     })
 }
 
@@ -41,7 +42,6 @@ const getCarrito = (req,res) => {
     carritosApi.getById(id)
     .then((carrito) => {
         let prods = carrito["items"]
-        //res.json({"Productos en el carrito:" : prods})
         res.render('carrito', {idCarrito: id, items: prods})
                 })
     .catch((err) =>{
@@ -68,17 +68,17 @@ const agregarItemAlCarrito  = (req,res)  =>{
         .then((carritoAActualizar) =>{
             let carrito = JSON.stringify(carritoAActualizar)
             let prods  = JSON.parse(carrito)["items"]
-            // console.log("Carrito a actualizar" + carritoAActualizar)
-            // let prods= carritoAActualizar[0]["items"]
             prods.push(productoNuevo)
             let cart_timestamp = Date.now()
             carritosApi.udpateById(id, {"items": prods, cart_timestamp})
-            // res.send("Carrito actualizado")
             .then((carrito) =>{
                     res.render('carrito', {idCarrito: id, items: carrito.items})
                 })
             })
-            
+            .catch((err) =>{
+                logWarn(err)
+                res.send("Error al actualizar el carrito" + err)
+            })
         })
         .catch((err) =>{
             logWarn(err)

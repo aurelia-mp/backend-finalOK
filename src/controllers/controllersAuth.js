@@ -2,9 +2,11 @@ import { CPU_CORES } from '../../index.js';
 import { generateHashPassword, verifyPass } from '../bcrypt.js';
 import {users} from '../routers/routerAuth.js'
 import {enviarEmail} from '../../scripts/mailer.js';
+import {logInfo, logError} from '../../scripts/loggers/loggers.js'
 
 async function saveUser(user){
     // Por defecto, todo usuario nuevo se guarda como NO ADMIN
+    // Para crear un usuario ADMIN es necesario modificar el valor de "admin" manualmente en la base de datos
     user = {
         ...user,
         admin: false
@@ -30,9 +32,8 @@ const mostrarDatosProcesos = (req,res)=>{
 let user
 
 const autenticarUsuario = (req,res) =>{
-    const nombre = req.session.passport.user.username
-    const email = req.session.passport.user.email
-    res.render('main',  {nombre: nombre, email: email})
+    user = req.session.passport.user
+    res.render('main',  {usuario: user})
 }
 
 const desloggearUsuario = (req, res) => {
@@ -73,7 +74,7 @@ const postRegister =  async (req,res) =>{
     
     saveUser(newUser)
     .then((res)=>{
-        console.log(res)
+        logInfo(res)
         enviarEmail(newUser)
     })
     

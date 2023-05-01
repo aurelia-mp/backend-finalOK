@@ -66,5 +66,77 @@
     ],
     "cart_timestamp": 1672834472962,
     "id": 6
+  },
+  {
+    "items": {},
+    "cart_timestamp": 1682953514497,
+    "id": 7
+  },
+  {
+    "items": {},
+    "cart_timestamp": 1682953664940,
+    "id": 8
+  },
+  {
+    "items": {},
+    "cart_timestamp": 1682953762627,
+    "id": 9
+  },
+  {
+    "items": {},
+    "cart_timestamp": 1682953851781,
+    "id": 10
+  },
+  {
+    "items": [],
+    "cart_timestamp": 1682953902837,
+    "id": 11
+  },
+  {
+    "items": {},
+    "cart_timestamp": 1682953925910,
+    "id": 12
+  },
+  {
+    "items": {},
+    "cart_timestamp": 1682954020886,
+    "id": 13
+  },
+  {
+    "items": [],
+    "cart_timestamp": 1682954595662,
+    "id": 14
+  },
+  {
+    "items": [
+      {
+        "nombre": "Luigi Bosca Sauvignon Blanc",
+        "descripcion": "Vino blanco. Ideal para los días de verano",
+        "codigo": "37558",
+        "precio": "2800",
+        "stock": "30",
+        "thumbnail": "/upload/item2.jpeg",
+        "timestamp": 1670155820849,
+        "id": 2
+      }
+    ],
+    "cart_timestamp": 1682975047083,
+    "id": 15
+  },
+  {
+    "items": [
+      {
+        "nombre": "Luigi Bosca Blend",
+        "descripcion": "Vino tinto. Potencial de guarda: 5 años",
+        "codigo": "45789",
+        "precio": "4000",
+        "stock": "50",
+        "thumbnail": "/upload/item1.jpeg",
+        "timestamp": 1670513765475,
+        "id": 1
+      }
+    ],
+    "cart_timestamp": 1682975089806,
+    "id": 16
   }
 ]

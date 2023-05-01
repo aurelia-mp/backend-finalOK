@@ -3,22 +3,6 @@ const socket = io.connect()
 // PRODUCTOS
 
 const agregarEventosBotones = () =>{
-    
-    // const addToCardButtons = document.getElementsByClassName('btn-compra')
-    
-    // for (let i = 0; i < addToCardButtons.length; i++) {
-    //     const btn = addToCardButtons[i]
-    //     const identifier = btn.dataset.target;
-    //     console.log(identifier)
-    //     btn.addEventListener('click', () => addToCart(identifier))
-    // }
-    
-    // const addToCart = (id) => {
-    //     // agregar acá la función de agregar al carrito
-    //   console.log(id);
-      
-    // }
-
     // AXIOS - DELETE PRODUCTOS
     const deleteButtons = document.getElementsByClassName('btn-delete')
     if(deleteButtons){
@@ -55,7 +39,7 @@ const agregarEventosBotones = () =>{
             if (stock != "") {cambios.stock = stock}
 
             const idProducto = document.getElementsByClassName("btn-editar")[0].id
-
+     
             // PUT REQUEST CON AXIOS
             axios.put(`../../../api/productos/producto/${idProducto}`, cambios)
             .then((res) => {
@@ -65,7 +49,7 @@ const agregarEventosBotones = () =>{
             })
             .catch((err) => {
                 const errorModificacion = document.createElement('p')
-                errorModificacion.innerHTML = `Error de modificacion + err`
+                errorModificacion.innerHTML = `Error de modificacion + ${err}`
                 form.appendChild(errorModificacion)
             });
         });
@@ -109,7 +93,12 @@ const agregarEventosBotones = () =>{
 
         btnBorrarCarrito[0].addEventListener('click', () =>{
             axios.delete(`/api/carritos/${idCarrito}`)
-            .then(res => (btnBorrarCarrito[0].innerHTML= 'Carrito eliminado'))
+            .then((res) => {
+                btnBorrarCarrito[0].innerHTML= 'Carrito eliminado'
+                setTimeout(() => {
+                    location.href = '/'
+                }, 1000)
+            })
             .catch(error =>{
                 btnBorrarCarrito[0].parentElement.innerHTML = 'Se produjo un error.'
                

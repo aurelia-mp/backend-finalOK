@@ -1396,3 +1396,19 @@
 [2023-05-01T11:01:09.893] [ERROR] error - Problema en la autenticación
 [2023-05-01T11:03:10.322] [ERROR] error - Problema en la autenticación
 [2023-05-01T11:03:30.624] [ERROR] error - Problema en la autenticación
+[2023-05-01T11:58:24.471] [ERROR] error - Problema en la autenticación
+[2023-05-01T12:53:13.724] [ERROR] error - Problema en la autenticación
+[2023-05-01T17:25:23.916] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error al guardar',
+  detalle: ReferenceError: id is not defined
+      at ProductosDaoFirebase.save (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/contenedores/ContenedorFirebase.js:26:49)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[2023-05-01T17:28:49.197] [ERROR] error - CustomError {
+  codigo: 500,
+  descripcion: 'Error al guardar',
+  detalle: ReferenceError: id is not defined
+      at ProductosDaoFirebase.save (file:///Users/monniera/Documents/Perso/PROGRAMACION/coderhouse/BACKEND/proyectoFinal/src/contenedores/ContenedorFirebase.js:27:49)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}

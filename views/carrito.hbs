@@ -35,7 +35,7 @@
     {{#if items}}
      {{#if idCarrito}}
       <form action="/api/carritos/{{idCarrito}}/finalizarCompra" method="POST" enctype="multipart/form-data">
-        <button class="btn btn-danger">
+        <button class="btn btn-success">
             Finalizar compra
         </button>
       </form>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="mt-4">
-            <button type="submit" class="btn btn-danger btn-eliminar-carrito" id="{{idCarrito}}">Borrar el carrito</button>
+            <button type="submit" class="btn btn-warning btn-eliminar-carrito" id="{{idCarrito}}">Borrar el carrito</button>
         </div>
    
    

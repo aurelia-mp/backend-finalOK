@@ -15,6 +15,17 @@ export const getProductos = (req,res) =>{
     productosApi.getAll()
     .then(productos=>{
         carritoEnCurso && (idCarrito = carritoEnCurso)
+
+        // Para compatibilidad con Firebase - Agrega un id con el mismo formato que Mongo
+        if ('id' in productos[0]){
+            productos = productos.map((producto)=>{
+                return producto={
+                    ...producto,
+                    _id:producto.id
+                }
+            }
+           )
+        }
         res.render('products', {productos: productos, idCarrito: idCarrito || null, usuarioActual: usuarioActual })
     })
     .catch(err=>{
@@ -47,13 +58,21 @@ export const listarPreciosUSD = (req, res) =>{
 export const getProductoById = (req,res) =>{
         let id = req.params.id
         productosApi.getById(id)
-        .then(producto => 
-            producto ? 
+        .then(producto => {
+            if(producto) {
+                // Para compatibilidad con Firebase - Agrega un id con el mismo formato que Mongo
+                if ('id' in producto){
+                    producto={
+                            ...producto,
+                            _id:producto.id
+                        }
+                }
                 res.render('editar', {producto: producto})
-                // res.send(resp)
-                :
+            } 
+            else{
                 res.send({error: 'producto no encontrado'}) 
-            )
+            }   
+        })
 }
 
 export const borrarProductoById = (req,res) =>{
