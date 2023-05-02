@@ -127,8 +127,10 @@ if (config.mode == 'CLUSTER' && cluster.isPrimary) {
         cluster.fork()
     })
 } else {
-    const server = httpserver.listen(config.PORT, err => {
-        if (!err) logInfo(`Servidor http escuchando en el puerto ${config.PORT} - PID: ${process.pid}`)
+    const port = process.env.PORT || config.PORT
+
+    const server = httpserver.listen(port, err => {
+        if (!err) logInfo(`Servidor http escuchando en el puerto ${port} - PID: ${process.pid}`)
     })
     server.on('error', error => {
         logError(error)    
