@@ -1,7 +1,7 @@
 import express from "express";
 import { Server as httpServer } from 'http'
 import { Server as ioServer } from 'socket.io'
-import cors from 'cors'
+import mongoose from "mongoose";
 import session from 'express-session'
 import routerProductos from "./src/routers/routerProductos.js";
 import routerCarrito from "./src/routers/routerCarrito.js";
@@ -17,6 +17,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+import dotenv from 'dotenv'
+dotenv.config()
 
 const app = express()
 const httpserver = new httpServer(app)
@@ -41,6 +43,15 @@ app.use(session(config.session))
 //     useUnifiedTopology: true,
 // }
 // await mongoose.connect(URL, advancedOptions)
+
+//-----------Mongo DB--------------//
+mongoose.set('strictQuery', false)
+const URL = config.mongodb.cnxStr
+mongoose.connect(URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+})
+
 
 //Loggeo de todas las peticiones
 

@@ -3,15 +3,13 @@ const routerAuth = express.Router()
 import passport from "passport";
 import { Strategy } from "passport-local";
 const LocalStrategy = Strategy;
-// import * as model from '../models/users.js'
 import { verifyPass } from '../bcrypt.js';
+import * as model from '../models/users.js'
+import {logInfo, logError } from '../../scripts/loggers/loggers.js'
+import {mostrarDatosProcesos, autenticarUsuario, desloggearUsuario, mostrarDatosUsuario, getLogin, getLoginError, getRegister, postRegister, postLogin } from '../controllers/controllersAuth.js';
 
-import { logError } from '../../scripts/loggers/loggers.js'
-import {mostrarDatosProcesos, autenticarUsuario, desloggearUsuario, user, mostrarDatosUsuario, getLogin, getLoginError, getRegister, postRegister, postLogin } from '../controllers/controllersAuth.js';
-
-const { default: UsersMongoDb } = await import('../models/usersMongoDb.js')
-
-export const users = new UsersMongoDb()
+//*** const { default: UsersMongoDb } = await import('../models/usersMongoDb.js')
+// *** export const users = new UsersMongoDb()
 
 
 // FUNCIONES
@@ -30,10 +28,11 @@ let idCarrito
 
 passport.use('local', new LocalStrategy(
     async function(username, password, done){
-        // const existeUsuario = await model.usuarios.findOne({email: username})
         try{
-            const existeUsuario = await users.getByEmail(username)
+            const existeUsuario = await model.usuarios.findOne({email: username})
+            // *** const existeUsuario = await users.getByEmail(username)
             usuarioActual = existeUsuario
+
             if(!existeUsuario){
                 logInfo('usuario no encontrado')
                 return done(null, false)
@@ -52,7 +51,7 @@ passport.use('local', new LocalStrategy(
             }
         }
         catch(err){
-            logError('Problema en la autenticación')
+            logError('Problema en la autenticación '+ err)
         }
     }
 ))
@@ -62,22 +61,14 @@ passport.serializeUser((usuario, done) => {
 });
 
 passport.deserializeUser((nombre, done) => {
-    users.getByUsername(nombre)
+    model.usuarios.find({username: nombre})
+    // *** users.getByUsername(nombre)
     .then((res=>{
         done(null,res)
     }))
     .catch((err) =>{
         logError('error desde deserializacion' + err)
     })
-    // model.usuarios.find({username: nombre})
-    // .then((res=>{
-    //     console.log(res)
-    //     done(null, res)
-    // }))
-    // .catch((err) =>{
-    //     logError(err.message)
-    //     console.log('error desde deserializacion' + err)
-    // })
 });
 
 // RUTAS
@@ -91,14 +82,17 @@ routerAuth.get('/login-error', getLoginError)
 routerAuth.get('/register',getRegister)
 routerAuth.get('/datosPersonales', mostrarDatosUsuario)
 routerAuth.post('/register',postRegister)
-routerAuth.post(
-    '/login', 
-    passport.authenticate('local', {
-        successRedirect:'/', 
-        failureRedirect: '/login-error'
-    }),
-    postLogin
-)
+// routerAuth.post(
+//     '/login', 
+//     passport.authenticate('local', {
+//         successRedirect:'/', 
+//         failureRedirect: '/login-error'
+//     }),
+//     postLogin
+// )
+routerAuth.post('/login', passport.authenticate('local', {successRedirect:'/', failureRedirect: '/login-error'}),
+(req, res) => {
+})
 
 // PROCESS: Ruta info con datos del proceso
 routerAuth.get('/info', mostrarDatosProcesos)

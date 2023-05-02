@@ -1,6 +1,8 @@
 import { CPU_CORES } from '../../index.js';
 import { generateHashPassword, verifyPass } from '../bcrypt.js';
-import {users} from '../routers/routerAuth.js'
+// ** import {users} from '../routers/routerAuth.js'
+import * as model from '../models/users.js'
+
 import {enviarEmail} from '../../scripts/mailer.js';
 import {logInfo, logError} from '../../scripts/loggers/loggers.js'
 
@@ -11,7 +13,8 @@ async function saveUser(user){
         ...user,
         admin: false
     }
-    const userSave = users.save(user)
+    //*** const userSave = users.save(user)
+    const userSave = await model.usuarios.insertMany(user)
     return userSave
 }
 

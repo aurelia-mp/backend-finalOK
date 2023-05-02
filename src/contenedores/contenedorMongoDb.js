@@ -24,9 +24,7 @@ class containerMongo {
             const custError = new CustomError(500, 'Error al guardar', err)
             logError(custError)
             throw custError
-        } finally {
-            // this.connexion.disconnect()
-        }
+        } 
     }
 
     async getById(number){
@@ -40,25 +38,36 @@ class containerMongo {
             const custError = new CustomError(500, 'Error con el método getById', err)
             logError(custError)
             throw custError
-        } finally {
-            this.connexion.disconnect()
-        }
+        } 
+        // finally {
+        //     this.connexion.disconnect()
+        // }
     }
 
     async getByEmail(email){
         try{
             await this.connexion.connect()
-
-            const registroBuscado = await this.coleccion.findOne({email: email}).lean()
-            return registroBuscado ? registroBuscado 
-                    : null
+            return this.collection.findOne({email: email}).lean()
+            .then(result => {
+                if(result) {
+                  console.log(`Successfully found document: ${result}.`);
+                } else {
+                  console.log("No document matches the provided query.");
+                }
+                return result;
+              })
+              .catch(err => console.error(`Failed to find document: ${err}`));
+            // const registroBuscado = await this.coleccion.findOne({email: email}).lean()
+            // return registroBuscado ? registroBuscado 
+            //         : null
         } catch(err){
             const custError = new CustomError(500, 'Error con el método getByEmail', err)
             logError(custError)
             throw custError
-        } finally {
-            this.connexion.disconnect()
-        }
+        } 
+        // finally {
+        //     this.connexion.disconnect()
+        // }
     }
 
     async getByUsername(name){
@@ -72,9 +81,7 @@ class containerMongo {
             const custError = new CustomError(500, 'Error con el método getByUsername', err)
             logError(custError)
             throw custError
-        } finally {
-            // this.connexion.disconnect()
-        }
+        } 
     }
 
     async udpateById(id, cambios){
@@ -87,9 +94,10 @@ class containerMongo {
             const custError = new CustomError(500, 'Error con el método updateById', err)
             logError(custError)
             throw custError
-        } finally {
-            this.connexion.disconnect()
-        }
+        } 
+        // finally {
+        //     this.connexion.disconnect()
+        // }
     }
 
     async getAll(){
@@ -104,9 +112,10 @@ class containerMongo {
             const custError = new CustomError(500, 'Error con el método getAll', err)
             logError(custError)
             throw custError
-        } finally {
-            this.connexion.disconnect()
-        }
+        } 
+        // finally {
+        //     this.connexion.disconnect()
+        // }
 
     }
     
@@ -120,9 +129,10 @@ class containerMongo {
             const custError = new CustomError(500, 'Error con el método deleteById', err)
             logError(custError)
             throw custError
-        } finally {
-           this.connexion.disconnect()
-        }
+        } 
+        // finally {
+        //    this.connexion.disconnect()
+        // }
     }
 
     async deleteAll(){
@@ -137,9 +147,10 @@ class containerMongo {
             const custError = new CustomError(500, 'Error con el método deleteAll', err)
             logError(custError)
             throw custError
-        } finally {
-            this.connexion.disconnect()
-        }
+        } 
+        // finally {
+        //     this.connexion.disconnect()
+        // }
     }
 }
 
