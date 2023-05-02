@@ -1,9 +1,8 @@
-import { resolveInclude } from "ejs";
+import { resolveInclude } from "ejs"
 import admin from "firebase-admin"
 import config from '../config.js'
 import {logError} from '../../scripts/loggers/loggers.js'
 import CustomError from '../clases/CustomError.class.js'
-
 
 admin.initializeApp({
     credential: admin.credential.cert(config.firebase)
