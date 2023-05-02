@@ -1,4 +1,6 @@
 import knex from 'knex'
+import { logInfo, logError } from './loggers/loggers.js'
+
 
 const sqliteClient = knex({
     client: 'sqlite3',
@@ -20,7 +22,7 @@ try {
         table.string('mensaje')
         table.string('fecha')
     })
-    console.log('tabla mensajes en sqlite3 creada con éxito')
+    logInfo('tabla mensajes en sqlite3 creada con éxito')
   
     // Insertar los primeros mensajes en la tabla
     let mensajes = [
@@ -52,9 +54,9 @@ try {
       
       await sqliteClient('mensajes').insert(mensajes)
       const msj = await sqliteClient.from('mensajes').select('*')
-      console.log(msj)
+      logInfo(msj)
   } catch (error) {
-    console.log('error al crear tabla mensajes en sqlite3')
+      logError('error al crear tabla mensajes en sqlite3' + error)
   } finally {
-    sqliteClient.destroy()
+      sqliteClient.destroy()
   }

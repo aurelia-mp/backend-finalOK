@@ -1,10 +1,8 @@
 import mongoose from 'mongoose'
-import config from '../config.js'
 import CustomError from '../clases/CustomError.class.js'
 import MongoDBClient from '../clases/MongoDBClient.class.js'
 import {logInfo, logError} from '../../scripts/loggers/loggers.js'
 
-// await mongoose.connect(config.mongodb.cnxStr, config.mongodb.options)
 
 class containerMongo {
     constructor(nombreColeccion, esquema) {
@@ -39,9 +37,6 @@ class containerMongo {
             logError(custError)
             throw custError
         } 
-        // finally {
-        //     this.connexion.disconnect()
-        // }
     }
 
     async getByEmail(email){
@@ -57,17 +52,11 @@ class containerMongo {
                 return result;
               })
               .catch(err => console.error(`Failed to find document: ${err}`));
-            // const registroBuscado = await this.coleccion.findOne({email: email}).lean()
-            // return registroBuscado ? registroBuscado 
-            //         : null
         } catch(err){
             const custError = new CustomError(500, 'Error con el método getByEmail', err)
             logError(custError)
             throw custError
         } 
-        // finally {
-        //     this.connexion.disconnect()
-        // }
     }
 
     async getByUsername(name){
@@ -95,9 +84,6 @@ class containerMongo {
             logError(custError)
             throw custError
         } 
-        // finally {
-        //     this.connexion.disconnect()
-        // }
     }
 
     async getAll(){
@@ -105,18 +91,13 @@ class containerMongo {
            await this.connexion.connect()
 
             const registros = await this.coleccion.find({}).lean() 
-            // .lean transforma el objeto Mongoose en json
             logInfo(registros)
             return registros
         } catch(error){
             const custError = new CustomError(500, 'Error con el método getAll', err)
             logError(custError)
             throw custError
-        } 
-        // finally {
-        //     this.connexion.disconnect()
-        // }
-
+        }
     }
     
     async deleteById(number){
@@ -130,9 +111,6 @@ class containerMongo {
             logError(custError)
             throw custError
         } 
-        // finally {
-        //    this.connexion.disconnect()
-        // }
     }
 
     async deleteAll(){
@@ -148,9 +126,6 @@ class containerMongo {
             logError(custError)
             throw custError
         } 
-        // finally {
-        //     this.connexion.disconnect()
-        // }
     }
 }
 

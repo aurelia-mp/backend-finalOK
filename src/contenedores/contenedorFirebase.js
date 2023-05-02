@@ -43,10 +43,6 @@ class ContenedorFirebase{
             if(isNaN(id)){id=parseInt(id)}
             const doc = this.coleccion.doc(`${id}`)
             let registro = await doc.get()
-            // Transforma la respuesta en un array para que funcione el método getCarrito
-            // let arrayRespuesta = []
-            // arrayRespuesta.push(registro.data())
-            // return registro? arrayRespuesta : null 
             return registro.data()
         } catch(err){
             const custError = new CustomError(500, 'Error con el método getById', err)
@@ -58,10 +54,8 @@ class ContenedorFirebase{
     async udpateById(id, cambios){
         try{
             const doc = this.coleccion.doc(id)
-            console.log(cambios)
             let registro = await doc.update(cambios)
             let registroActualizado = await doc.get()
-            console.log(registroActualizado)
             return registro ? registroActualizado.data() : null
         }
         catch(err){
@@ -79,7 +73,6 @@ class ContenedorFirebase{
                 id: registro.id,
                 ...registro.data()
             }))
-            console.log(registrosFormateados)
             return registrosFormateados
         }
         catch(error){
@@ -104,7 +97,6 @@ class ContenedorFirebase{
 
     async deleteAll(){
         try{
-
             // Desde documentación de firebase
             const registros = await this.coleccion.get()
 

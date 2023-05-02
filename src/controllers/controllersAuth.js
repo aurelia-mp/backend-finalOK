@@ -1,6 +1,5 @@
 import { CPU_CORES } from '../../index.js';
 import { generateHashPassword, verifyPass } from '../bcrypt.js';
-// ** import {users} from '../routers/routerAuth.js'
 import * as model from '../models/users.js'
 
 import {enviarEmail} from '../../scripts/mailer.js';
@@ -13,7 +12,6 @@ async function saveUser(user){
         ...user,
         admin: false
     }
-    //*** const userSave = users.save(user)
     const userSave = await model.usuarios.insertMany(user)
     return userSave
 }
@@ -81,7 +79,6 @@ const postRegister =  async (req,res) =>{
         enviarEmail(newUser)
     })
     
-    // req.session.nombre = nombre
     res.redirect('/login');
 }
 

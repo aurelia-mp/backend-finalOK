@@ -8,8 +8,6 @@ async function generateHashPassword(password) {
 
 async function verifyPass(usuario, password) {
     const match = await bcrypt.compare(password, usuario.password)
-    // console.log(`pass login: ${password} || pass hash: ${usuario.password}`)
-    // console.log(match)
     return match
 }
 

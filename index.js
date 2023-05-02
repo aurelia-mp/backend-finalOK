@@ -28,23 +28,14 @@ const io = new ioServer(httpserver, {
     }
 })
 
-
 // Middleware
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 // Session
 app.use(session(config.session))
 
-// Mongo DB
-// const URL = 'mongodb://localhost:27017/usuarios'
-// mongoose.set('strictQuery', true)
-// const advancedOptions = {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-// }
-// await mongoose.connect(URL, advancedOptions)
 
-//-----------Mongo DB--------------//
+// Mongo DB
 mongoose.set('strictQuery', false)
 const URL = config.mongodb.cnxStr
 mongoose.connect(URL, {
@@ -52,9 +43,7 @@ mongoose.connect(URL, {
     useUnifiedTopology: true
 })
 
-
 //Loggeo de todas las peticiones
-
 app.use((req, res, next) =>{
     logInfo(`${req.method} ${req.url}`)
     next()
@@ -66,7 +55,6 @@ app.use('/api/carritos', routerCarrito)
 app.use('/', routerAuth)
 
 // Loggeo de rutas inexistentes
-
 app.use('*', (req, res, next) => {
     logWarn(`ruta ${req.originalUrl} método ${req.method} no implementada`)
     next()
@@ -98,17 +86,14 @@ app.get('*', ((req, res) => {
 }))
 
 // Mensajes
-
 const mensajes = new ContenedorSQL(config.sqlite3, 'mensajes')
 
 // Implementación de websocket
 io.on('connection', socket =>{
-    // console.log('usuario conectado')
     // Al conectarse un nuevo usuario, aparece el historial de mensajes anteriores
     mensajes.getAll()
     .then((mjes) =>{
         socket.emit('mensajes', mjes)
-        // console.log(mjes)
     })
     
     // Recibo un mensaje nuevo
@@ -138,7 +123,7 @@ if (config.mode == 'CLUSTER' && cluster.isPrimary) {
     }
     
     cluster.on('exit', worker => {
-        console.log(`Worker finalizó proceso ${process.pid} ${worker.id} ${worker.pid} finalizó el ${new Date().toLocaleString}`)
+        logInfo(`Worker finalizó proceso ${process.pid} ${worker.id} ${worker.pid} finalizó el ${new Date().toLocaleString}`)
         cluster.fork()
     })
 } else {

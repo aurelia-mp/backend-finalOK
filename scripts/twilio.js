@@ -1,4 +1,5 @@
 import twilio from 'twilio'
+import { logError} from './loggers/loggers.js'
 import dotenv from 'dotenv'
 dotenv.config()
 
@@ -12,7 +13,6 @@ const authToken = process.env.TWILIO_AUTH_TOKEN
 const client = twilio(accountSid, authToken)
 
 export default async function enviarWA(numero){
-    console.log(numero)
     const options = {
         // cuerpo del mensaje
         body: 'Su pedido ha sido recibido y está en proceso de preparación',
@@ -23,6 +23,6 @@ export default async function enviarWA(numero){
         await client.messages.create(options)
     }
     catch(err){
-        console.log(err)
+        logError('Error de envío de WhatsApp por Twilio' + err)
     }
 }

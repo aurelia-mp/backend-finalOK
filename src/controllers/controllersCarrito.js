@@ -22,7 +22,6 @@ const crearCarrito = (req,res) =>{
         {
             carritoEnCurso = id
             res.redirect(303, '/api/productos')
-            // res.send(`Carrito creado con el id ${id}`)
         })
 }
 
@@ -32,7 +31,6 @@ const borrarCarrito = (req,res) =>{
     .then(resp =>{
         carritoEnCurso = null
         res.redirect(303, '/api/productos')
-        // res.send('Carrito eliminado')
     })
 }
 
@@ -109,11 +107,9 @@ const borrarItemDelCarrito = (req,res) =>{
     let id = req.params.id
     let id_prod = req.params.id_prod
     // parsea el id producto solo si es un numero-  lo deja igual si es un string
-    // !isNaN(parseInt(id_prod)) && (id_prod = parseInt(id_prod))
     isNaN(id_prod) ? id_prod : (id_prod = parseInt(id_prod))
     carritosApi.getById(id)
     .then((carrito)=>{
-        //let prods= carrito[0]["items"]
         let prods = carrito["items"]
         let index = prods.findIndex((el) => el._id == id_prod)
         if (index === -1){

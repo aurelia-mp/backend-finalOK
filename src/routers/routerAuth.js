@@ -8,10 +8,6 @@ import * as model from '../models/users.js'
 import {logInfo, logError } from '../../scripts/loggers/loggers.js'
 import {mostrarDatosProcesos, autenticarUsuario, desloggearUsuario, mostrarDatosUsuario, getLogin, getLoginError, getRegister, postRegister, postLogin } from '../controllers/controllersAuth.js';
 
-//*** const { default: UsersMongoDb } = await import('../models/usersMongoDb.js')
-// *** export const users = new UsersMongoDb()
-
-
 // FUNCIONES
 function isAuth(req,res,next){
     if(req.isAuthenticated()){
@@ -30,7 +26,6 @@ passport.use('local', new LocalStrategy(
     async function(username, password, done){
         try{
             const existeUsuario = await model.usuarios.findOne({email: username})
-            // *** const existeUsuario = await users.getByEmail(username)
             usuarioActual = existeUsuario
 
             if(!existeUsuario){
@@ -62,7 +57,6 @@ passport.serializeUser((usuario, done) => {
 
 passport.deserializeUser((nombre, done) => {
     model.usuarios.find({username: nombre})
-    // *** users.getByUsername(nombre)
     .then((res=>{
         done(null,res)
     }))
@@ -82,17 +76,14 @@ routerAuth.get('/login-error', getLoginError)
 routerAuth.get('/register',getRegister)
 routerAuth.get('/datosPersonales', mostrarDatosUsuario)
 routerAuth.post('/register',postRegister)
-// routerAuth.post(
-//     '/login', 
-//     passport.authenticate('local', {
-//         successRedirect:'/', 
-//         failureRedirect: '/login-error'
-//     }),
-//     postLogin
-// )
-routerAuth.post('/login', passport.authenticate('local', {successRedirect:'/', failureRedirect: '/login-error'}),
-(req, res) => {
-})
+routerAuth.post(
+    '/login', 
+    passport.authenticate('local', {
+        successRedirect:'/', 
+        failureRedirect: '/login-error'
+    }),
+    postLogin
+)
 
 // PROCESS: Ruta info con datos del proceso
 routerAuth.get('/info', mostrarDatosProcesos)

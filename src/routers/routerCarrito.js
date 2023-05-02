@@ -22,11 +22,5 @@ routerCarrito.post('/:id/productos/', agregarVariosItemsAlCarrito)
 routerCarrito.delete('/:id/productos/:id_prod', borrarItemDelCarrito)
 routerCarrito.post('/:id/finalizarCompra', enviarConfirmacion )
 
-// routerCarrito.post('/:id/finalizarCompra', (req,res)=>{
-
-//     let id = req.params.id
-//     enviarEmailPedido(id)
-//     res.send('Compra finalizada')
-// })
 
 export default routerCarrito

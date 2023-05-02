@@ -1,7 +1,6 @@
 const socket = io.connect()
 
-// PRODUCTOS
-
+//----------------- PRODUCTOS ----------------------//
 const agregarEventosBotones = () =>{
     // AXIOS - DELETE PRODUCTOS
     const deleteButtons = document.getElementsByClassName('btn-delete')
@@ -110,7 +109,7 @@ const agregarEventosBotones = () =>{
 }
 
 
-// MENSAJES
+//----------------- MENSAJES ----------------------//
 
 const activarFormulario = () =>{
 

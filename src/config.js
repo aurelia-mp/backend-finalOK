@@ -35,7 +35,6 @@ export default {
         options: {
             useNewUrlParser: true,
             useUnifiedTopology: true,
-            // useCreateIndex: true,
             serverSelectionTimeoutMS: 5000
         }
     },
@@ -59,16 +58,6 @@ export default {
             filename: __dirname + '/../DB/ecommerce.sqlite'
         },
         useNullAsDefault: true
-    },
-    mariaDb: {
-        client: 'mysql',
-        connection: {
-            host: '127.0.0.1',
-            user: 'root',
-            password: 'root',
-            database: 'coderhouse_01',
-            port: 8889
-        }
     },
     session:{
         store: MongoStore.create({

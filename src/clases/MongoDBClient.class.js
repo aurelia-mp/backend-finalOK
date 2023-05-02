@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import config from "../config.js";
-import {logInfo, logWarn, logError} from '../../scripts/loggers/loggers.js'
+import {logInfo, logError} from '../../scripts/loggers/loggers.js'
 import CustomError from "./CustomError.class.js";
 import DBClient from "./DBClient.class.js";
 
@@ -13,7 +13,6 @@ class MongoDBClient extends DBClient {
 
     async connect(){
         try {
-            // await this.client.connect(config.mongodb.cnxStr, config.mongodb.options);
             await mongoose.connect(config.mongodb.cnxStr, config.mongodb.options)
 
             this.connected = true;

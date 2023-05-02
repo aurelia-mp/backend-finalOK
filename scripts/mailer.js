@@ -1,4 +1,6 @@
 import { createTransport } from 'nodemailer';
+import { logError} from './loggers/loggers.js'
+
 import dotenv from 'dotenv'
 dotenv.config()
 
@@ -29,9 +31,8 @@ async function enviarEmail(datosUsuario){
      }
     try {
         const info = await transporter.sendMail(mailOptions)
-        console.log(info)
      } catch (error) {
-        console.log(error)
+        logError('Error de envío de mail' + error)
      }
      
 }
@@ -55,7 +56,7 @@ async function enviarEmailPedido(id, items, usuario){
     try {
         const info = await transporter.sendMail(mailOptions)
      } catch (err) {
-        console.log(err)
+        logError('Error de envío de mail' + err)
      }
      
 }

@@ -1,4 +1,5 @@
 import knex from 'knex'
+import {logInfo, logError} from '../../scripts/loggers/loggers.js'
 
 class ContenedorSQL {
     constructor(config,tabla){
@@ -13,7 +14,7 @@ class ContenedorSQL {
             return data
         }
         catch(error){
-            console.log("error de lectura", error)
+            logError("error de lectura", error)
         }   
     }
 
@@ -25,7 +26,7 @@ class ContenedorSQL {
             return lastId
         }
         catch(err){
-            console.log(err)
+            logError('Error de guardado ' + err)
         }
     }
 
@@ -36,7 +37,7 @@ class ContenedorSQL {
             return objeto || null
         }
         catch (err){
-            console.log(err)
+            logError('Error con método getById' + err)
         }
     }
 
@@ -47,7 +48,7 @@ class ContenedorSQL {
             return update || null  
         }
         catch(error){ 
-            console.log("no se pudo actualizar el producto ", error)
+            logError("Error con método updateById ", error)
         } 
     }
 
@@ -59,7 +60,7 @@ class ContenedorSQL {
             return deletedRows || null
         }
         catch(error) {
-            console.log('no se pudo borrar el producto', error)
+            logError('Error con método deleteById', error)
         }
     }
 
@@ -69,7 +70,7 @@ class ContenedorSQL {
             knexConnection(this.tabla).del()
         }
         catch(err){
-            console.log('No se pudo borrar la base de datos', err)
+            logError('No se pudo borrar la base de datos', err)
         }
     }
 }
