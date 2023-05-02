@@ -11,6 +11,7 @@
 </div>
 
 {{#if usuario.admin}}
+<div class="container mt-3">
 <h3 class="pb-4">Agregar un producto</h3>
   <form action="/api/productos" method="POST" enctype="multipart/form-data">
     <div class="mb-3">
@@ -21,11 +22,11 @@
       <label for="descripcion" class="form-label">Descripción</label>
       <input type="text" class="form-control" id="descripcion" aria-describedby="descripcion" name="descripcion">
     </div>
-      <div class="mb-3 row">
-        <div class="col">
-          <label for="codigo" class="form-label">Código</label>
-          <input type="number" class="form-control" id="codigo" aria-describedby="codigo" name="codigo">  
-        </div>
+    <div class="mb-3 row">
+      <div class="col">
+        <label for="codigo" class="form-label">Código</label>
+        <input type="number" class="form-control" id="codigo" aria-describedby="codigo" name="codigo">  
+      </div>
       <div class="col">
         <label for="precio" class="form-label">Precio</label>
         <input type="number" class="form-control" id="precio" name="precio">
@@ -41,6 +42,7 @@
     </div>
     <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
+</div>
 
   {{#if listaProductos.length}}
   <h3>Producto guardado!</h3>

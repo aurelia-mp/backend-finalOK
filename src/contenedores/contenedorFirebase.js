@@ -10,7 +10,7 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-class ContenedorFirebase{
+class ContainerFirebase{
     constructor(nombreColeccion) {
         this.coleccion = db.collection(nombreColeccion)
     }
@@ -120,4 +120,4 @@ class ContenedorFirebase{
     }
 }
 
-export default ContenedorFirebase
+export default ContainerFirebase

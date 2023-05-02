@@ -113,33 +113,36 @@ const agregarEventosBotones = () =>{
 
 const activarFormulario = () =>{
 
-    const inputEmail = document.getElementById('inputEmail')
-    const inputMensaje = document.getElementById('inputMensaje')
-    const btnEnviar = document.getElementById('btnEnviar')
-
-    inputEmail.addEventListener('input', () => {
-        const hayEmail = inputEmail.value.length
-        const hayTexto = inputMensaje.value.length
-        inputMensaje.disabled = !hayEmail
-        btnEnviar.disabled = !hayEmail || !hayTexto
-    })
-    
-    inputMensaje.addEventListener('input', () => {
-        const hayTexto = inputMensaje.value.length
-        btnEnviar.disabled = !hayTexto
-    })
-
     const formPublicarMensaje = document.getElementById('formPublicarMensaje')
-    formPublicarMensaje.addEventListener('submit', e => {
-        e.preventDefault()
-        const mensaje= {
-            "email":inputEmail.value,
-            "mensaje":inputMensaje.value
-        }
-        socket.emit('nuevoMensaje', mensaje)
-        formPublicarMensaje.reset()
-        inputMensaje.focus()
-    })
+
+    if (formPublicarMensaje){
+        const inputEmail = document.getElementById('inputEmail')
+        const inputMensaje = document.getElementById('inputMensaje')
+        const btnEnviar = document.getElementById('btnEnviar')
+    
+        inputEmail.addEventListener('input', () => {
+            const hayEmail = inputEmail.value.length
+            const hayTexto = inputMensaje.value.length
+            inputMensaje.disabled = !hayEmail
+            btnEnviar.disabled = !hayEmail || !hayTexto
+        })
+        
+        inputMensaje.addEventListener('input', () => {
+            const hayTexto = inputMensaje.value.length
+            btnEnviar.disabled = !hayTexto
+        })
+    
+        formPublicarMensaje.addEventListener('submit', e => {
+            e.preventDefault()
+            const mensaje= {
+                "email":inputEmail.value,
+                "mensaje":inputMensaje.value
+            }
+            socket.emit('nuevoMensaje', mensaje)
+            formPublicarMensaje.reset()
+            inputMensaje.focus()
+        })
+    }
 }
 
 socket.on('mensajes', mensajes => {
@@ -157,9 +160,12 @@ function makeHtmlList(mensajes) {
     return html
 }
 
+// document.addEventListener('DOMContentLoaded', () =>{
+//     document.getElementById('formPublicarMensaje') &&  activarFormulario
+// })
+
+document.addEventListener('DOMContentLoaded', activarFormulario)
 
 document.addEventListener('DOMContentLoaded', 
     agregarEventosBotones)
-document.addEventListener('DOMContentLoaded', () =>{
-    document.getElementById('formPublicarMensaje') &&  activarFormulario
-})
+
