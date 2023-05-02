@@ -31,7 +31,7 @@ export default {
         path: './DB'
     },
     mongodb: {
-        cnxStr: 'mongodb+srv://aureliamp:sQaQZAiOvFoVvsHj@cluster0.4btgkst.mongodb.net/test',
+        cnxStr: process.env.MONGO_URL,
         options: {
             useNewUrlParser: true,
             useUnifiedTopology: true,
